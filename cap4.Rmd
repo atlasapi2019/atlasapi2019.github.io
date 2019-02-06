@@ -1,5 +1,5 @@
 ---
-title: "Estadísticas (En construcción...)"
+title: "Estadísticas"
 ---   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
