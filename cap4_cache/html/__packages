@@ -1,0 +1,12 @@
+base
+htmltools
+vembedr
+kableExtra
+dygraphs
+DT
+sp
+rgdal
+leaflet
+highcharter
+htmlwidgets
+leaflet.extras
