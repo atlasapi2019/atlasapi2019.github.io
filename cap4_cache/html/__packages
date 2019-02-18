@@ -10,3 +10,5 @@ leaflet
 highcharter
 htmlwidgets
 leaflet.extras
+mapview
+raster

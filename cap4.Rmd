@@ -202,13 +202,16 @@ hchart(miel_est[,1], animation = T, name = "AGS",visible = F) %>% hc_add_theme(h
 
 <br/>
 
-```{r mapaleaflet3, echo=FALSE, message=FALSE, warning=FALSE, fig.height=6, cache =TRUE, out.width = "100%"}
+```{r mapaleaflet2, echo=FALSE, message=FALSE, warning=FALSE, fig.height=6, cache =TRUE, out.width = "100%"}
 library(sp)
 library(rgdal)
 library(leaflet)
 library(htmltools)
 library(htmlwidgets)
 library(leaflet.extras)
+library(mapview)  
+library(raster)
+
 
 proApicola <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.shp",
                   "INEGI_DENUE_21012019", verbose=FALSE)
@@ -287,12 +290,14 @@ l %>%
   addLayersControl(
     overlayGroups = names(quakes.df),
     options = layersControlOptions(collapsed = FALSE)
-  )
-
- 
+  ) %>% addMouseCoordinates()  %>%
+addHomeButton(extent(proMiel), layer.name = "i",  position = "topleft") 
 
 
 ```
+
+
+
 
 <br/>
 
