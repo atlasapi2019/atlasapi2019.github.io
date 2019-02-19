@@ -211,6 +211,8 @@ library(htmlwidgets)
 library(leaflet.extras)
 library(mapview)  
 library(raster)
+library(bitops)
+library(rjson)
 
 
 proApicola <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.shp",
@@ -247,8 +249,6 @@ x0 <- rep("Venta de Miel",length(ueMiel@data[,1]))
 ueMiel@data <- cbind(ueMiel@data, x0)
 
 ueMielApic <- raster::bind(ueMiel, proApicola)
-
-
 
 quakes.df <- split(ueMielApic, ueMielApic$x0)
 

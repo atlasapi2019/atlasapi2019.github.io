@@ -12,3 +12,5 @@ htmlwidgets
 leaflet.extras
 mapview
 raster
+rjson
+bitops
