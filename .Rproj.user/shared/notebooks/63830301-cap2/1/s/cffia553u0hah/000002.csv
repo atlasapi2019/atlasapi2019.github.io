@@ -1,0 +1,5 @@
+"0","library(kableExtra)"
+"0","tabtab0x11 <- read.csv(""tabs/poliniza_colm.csv"", encoding = ""UTF"")"
+"0","names(tabtab0x11) <- c( ""DELEGACIÓN SAGARPA"", ""CULTIVOS"", ""COLMENAS"")"
+"0","kableExtra::kable(tabtab0x11, align = c('l','l','r')) %>%"
+"0","  kableExtra::kable_styling(bootstrap_options = c(""striped"", ""hover""))"

@@ -2,5 +2,4 @@ base
 htmltools
 vembedr
 kableExtra
-dygraphs
 DT
