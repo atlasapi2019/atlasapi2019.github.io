@@ -31,7 +31,8 @@ knitr::opts_chunk$set(echo=FALSE, message = FALSE, warning = FALSE)
 library(sp)
 library(rgdal)
 library(leaflet)
-
+library(leaflet.extras)
+library(mapview)  
 
 
 
@@ -50,7 +51,7 @@ binpal <- colorBin("Oranges", prod_miel$total2018, breaks2)
 
 map_prod_miel %>%
   setView(lng = -102.43, lat = 22.37, zoom = 5.4) %>%
-  addTiles() %>%
+  addTiles() %>% addFullscreenControl() %>%
   addPolygons(
     stroke = FALSE,
     fillOpacity = 0.7,
@@ -87,6 +88,8 @@ knitr::opts_chunk$set(echo=FALSE, message = FALSE, warning = FALSE)
 library(sp)
 library(rgdal)
 library(leaflet)
+library(leaflet.extras)
+library(mapview)  
 
 mapa_base <- readOGR("geodata", "ent_a", verbose=FALSE, encoding = "UTF")
 colm_ent <- read.csv("tabs/colmenas.csv")
@@ -104,7 +107,7 @@ binpal2 <- colorBin("Blues", mapa_base$colmenas, breaks4)
 
 map_colm %>%
   setView(lng = -102.43, lat = 22.37, zoom = 5.4) %>%
-  addTiles() %>%
+  addTiles() %>% addFullscreenControl() %>%
   addPolygons(
     stroke = FALSE,
     fillOpacity = 0.7,
@@ -142,6 +145,8 @@ knitr::opts_chunk$set(echo=FALSE, message = FALSE, warning = FALSE)
 library(sp)
 library(rgdal)
 library(leaflet)
+library(leaflet.extras)
+library(mapview)  
 
 mapa_base2 <- readOGR("geodata", "ent_a", verbose=FALSE, encoding = "UTF")
 apic_ent <- read.csv("tabs/estadisticas.csv")
@@ -159,7 +164,7 @@ binpal3 <- colorBin("Purples", mapa_base2$apicult, breaks6)
 
 map_apicult %>%
   setView(lng = -102.43, lat = 22.37, zoom = 5.4) %>%
-  addTiles() %>%
+  addTiles() %>% addFullscreenControl() %>%
   addPolygons(
     stroke = FALSE,
     fillOpacity = 0.7,

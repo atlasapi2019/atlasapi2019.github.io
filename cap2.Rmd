@@ -253,7 +253,7 @@ Comprende:
   1. Incentivos a la Postproducción Pecuaria.  
   2. Reproducción y Material Genético Pecuario.  
 
-**III.	[Investigación, Innovación y Desarrollo Tecnológico Pecuarios.](pdfs/17122018-investigacion-innovacion-y-desarrollo-tecnologico-pecuarios.zip)**
+**III.	Investigación, Innovación y Desarrollo Tecnológico Pecuarios.**
 
 Consta de:
 
@@ -353,7 +353,7 @@ knitr::include_graphics("imag/_MG_3483.JPG")
 <br/>
 <br/>
 
-
+<a name=a002></a>
 
 ##  2.7. Asociaciones Nacionales y Locales de Apicultores, Profesionales e Investigadores  
 **** 

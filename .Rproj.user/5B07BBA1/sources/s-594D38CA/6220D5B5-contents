@@ -1,0 +1,60 @@
+
+---
+title: "Introducción"
+--- 
+
+```{r i0, fig.align='center', echo=FALSE, cache=TRUE}
+
+knitr::include_graphics("imag/Portada1x.jpg")
+
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+<div class=text-justify>
+
+</br>
+</br>
+
+El **Atlas Nacional de las Abejas y Derivados Apícolas** integra la información existente en torno a la apicultura en México, desde las características de la miel, hasta aspectos relacionados con la actividad económica en torno a las especies domesticadas, de carácter técnico referentes a la crianza de abejas, los apoyos gubernamentales que existen y el volumen de producción de las entidades federativas, entre otros temas, acompañada de datos históricos sobre la apicultura.  
+
+Dada la importancia del tema, y en cumplimiento con el artículo 3° de la Ley del Sistema Nacional de Información Estadística y Geográfica (SNIEG), que establece la finalidad de suministrar a la sociedad y al Estado, información de calidad, pertinente, veraz y oportuna, a efecto de coadyuvar al desarrollo nacional, el **Instituto Nacional de Estadística y Geografía (INEGI)**, en coordinación con la **Secretaría de Agricultura y Desarrollo Rural (SADER, antes SAGARPA)**, y otras Unidades de Estado que integran el SNIEG, presentan este proyecto denominado *Atlas Nacional de las Abejas y Derivados Apícolas*, en su primera edición.
+
+Este proyecto compila por primera vez en un mismo lugar, tanto información que ya se encuentra disponible en publicaciones y páginas web de las Unidades de Estado que colaboran en este proyecto, y de otros estudios relacionados, como datos que dichas unidades acordaron compartir con el INEGI, y que se han analizado y procesado para presentarse en forma dinámica, a efecto de ofrecer a usuarios específicos y al público en general, toda la información disponible hasta el momento en un único sitio web, con datos verificables y actualizables. 
+
+Con ello, se pretende dar cumplimiento a los principios rectores de accesibilidad, transparencia, objetividad e independencia, que el INEGI promueve como parte de su misión institucional.
+
+</br>
+</br>
+</br>	
+   
+# Justificación  
+
+
+```{r i_1, fig.align='center', echo=FALSE, cache=TRUE}
+
+knitr::include_graphics("imag/1_Just.png")
+
+```
+
+
+Actualmente existe una fuerte tendencia a realizar *Investigación Reproducible*, es decir, presentar reportes científicos o publicaciones donde los datos y el código utilizado estén disponibles para que otros puedan verificar los hallazgos, o enriquecerlos al contribuir en ellos, lo cual promueve la trasparencia y confianza en los resultados. En ese contexto, se presenta el _Atlas Nacional de las Abejas y Derivados Apícolas_, con la finalidad de tener un producto robusto y que sea punto de partida para detectar las necesidades de información sobre la apicultura, y con ello impulsar el desarrollo de esta importante actividad, de manera responsable y sustentable.
+
+El _Atlas Nacional de las Abejas y Derivados Apícolas_ surge de la necesidad de identificar la situación en que se encuentra esta especie, la cual es preocupante. El informe de la [Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas](pdfs/SPM_Pollination_ES.pdf){target="_blank"} de las Naciones Unidas (IPBES, por sus siglas en inglés) advierte que el 40% de los polinizadores invertebrados, en particular abejas y mariposas, podrían estarse enfrentando en este momento, a un proceso de extinción. 
+
+Las abejas no son los únicos polinizadores, ya que hay muchos otros insectos que realizan esa labor. De hecho, el término _abejas_ es muy inconcreto, pues existen unas 22,000 especies de abejas, de las que sólo un 5% son abejas de la miel o _Apis mellifera_. Es de resaltar que la abeja de la miel es una de las polinizadoras más eficientes, pues prospera en casi todos los ambientes del planeta, trabaja la mayor parte del año, forma poblaciones muy numerosas, y cada abeja suele ser fiel a un tipo de flor concreta, aumentando por tanto el índice de reproducción de las especies vegetales. 
+
+La zoopolinización desempeña una función vital como regulador de los ecosistemas en la naturaleza. A nivel mundial, casi el 90% de las fitoespecies florales silvestres dependen, al menos parcialmente, de la transferencia de polen por los animales. Esas plantas son fundamentales para el funcionamiento continuo de los ecosistemas en tanto proporcionan alimentos, constituyen hábitats, y proveen otros recursos para una amplia variedad de otras especies. De la misma forma, se estima que entre 5% y 8% de la actual producción agrícola mundial depende directamente de la zoopolinización. 
+
+En este contexto, el papel de la abeja melífera occidental se vuelve preponderante, debido a que es el polinizador gestionado de mayor diseminación en todo el planeta, y a nivel mundial existen alrededor de 81 millones de colmenas que, según estimaciones, producen anualmente 1.6 millones de toneladas de miel. La apicultura proporciona, en este sentido, una importante fuente de ingresos para muchas personas, sobre todo en el ámbito rural.   
+
+La protección de las abejas y de polinizadores, y en general de la biodiversidad, pasa por el conocimiento de la especie. Este trabajo pretende contribuir en dicha tarea con al menos una de ellas, que es la más cotizada por sus productos.
+
+
+
+</div>
