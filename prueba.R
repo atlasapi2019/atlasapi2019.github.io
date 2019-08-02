@@ -209,47 +209,37 @@ library(mapview)
 library(raster)
 library(bitops)
 library(rjson)
+library(xts)
 
 
-proApicola <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.shp",
+proApic <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.shp",
                       "INEGI_DENUE_21012019", verbose=FALSE)
-#dim(proApicola@data)
-x0 <- rep("Producto apícola",84)
-#names(proApicola@data)
-#head(proApicola@data)
+salen1 <- c(3913258,2218442,3096733,3640449,4083614,4184935,4449017,4486570)
+proApicola <- subset(proApic, !(is.element(proApic@data$id, salen1)))
+x0 <- rep("Actividades apícolas", dim(proApicola@data)[1])
 proApicola@data <- cbind(proApicola@data, x0)
-
 
 
 proMiel <- readOGR("geodata/INEGI_DENUE_21012019_MIEL/INEGI_DENUE_21012019.shp",
                    "INEGI_DENUE_21012019", verbose=FALSE)
-x1 <- c(3000055,427213,4552918,1662213,1587565,1963586,2565829,701212,979385,237899,
-        1571621,1426730,3096733,450223,1751907,2666869,3636718,1685250,1934039,1322255,
-        3666076,4282468,3518984)
+entran <- c(1662213,2565829,1426730,1751907,4282468,3518984) 
+salen2 <- c(1812561,3163906,3164094,2603960,1764794,555821,2477068,2465731,452114,4552918,1573930,3946536,
+            3426513,450223,485578,1436249,6743142,4108619)
+cod_scian <- c(311221,311999,321920,325412,325610,431194,431199,461190,461130,461140,461150,464113,493130)
+ueMiel <- subset(proMiel, ((is.element(proMiel@data$codigo_act, cod_scian)
+                            | is.element(proMiel@data$id, entran)) & !(is.element(proMiel@data$id, salen2))))
+ueMiel@data$x0 <- rep("Venta de Miel", dim(ueMiel@data)[1])
 
-ueMiel <- subset(proMiel, proMiel@data$codigo_act == 311221
-                 | proMiel@data$codigo_act == 311999 
-                 | proMiel@data$codigo_act == 321920
-                 | proMiel@data$codigo_act == 325412
-                 | proMiel@data$codigo_act == 325610
-                 | proMiel@data$codigo_act == 431194
-                 | proMiel@data$codigo_act == 431199
-                 | proMiel@data$codigo_act == 461190
-                 | proMiel@data$codigo_act == 461130 
-                 | proMiel@data$codigo_act == 461140 
-                 | proMiel@data$codigo_act == 461150
-                 | proMiel@data$codigo_act == 464113
-                 | proMiel@data$codigo_act == 493130 
-                 | is.element(proMiel@data$id, x1)
-)
 
-x0 <- rep("Venta de Miel",length(ueMiel@data[,1]))
-ueMiel@data <- cbind(ueMiel@data, x0)
+otrApic <- readOGR("geodata/INEGI_DENUE_01082019_OTRAPIC/INEGI_DENUE_01082019.shp",
+                   "INEGI_DENUE_01082019", verbose=FALSE)
+otrApic@data$x0 <- rep("Actividades apícolas", dim(otrApic@data)[1])
 
 ueMielApic <- raster::bind(ueMiel, proApicola)
+ueMielApic <- raster::bind(ueMielApic, otrApic)
 
-writeOGR(ueMielApic, "geodata", "puntos_miel", driver="ESRI Shapefile", encoding = 'UTF-8',
-         overwrite_layer=T)
+#writeOGR(ueMielApic, "geodata/puntos_miel.shp", "puntos_miel", "ESRI Shapefile", encoding = "UTF-8")
+#write.csv(ueMielApic@data,"geodata/puntos_miel.csv")
 
 quakes.df <- split(ueMielApic, ueMielApic$x0)
 
@@ -292,6 +282,10 @@ l %>%
     options = layersControlOptions(collapsed = FALSE)
   ) %>% addMouseCoordinates()  %>%
   addHomeButton(extent(proMiel), layer.name = "i",  position = "topleft") 
+
+
+
+
 
 
 
@@ -360,6 +354,49 @@ hchart(asoc, "bar", hcaes(x = asoc[,1], y = asoc[,2], group = asoc[,3])) %>% hc_
   hc_plotOptions(bar = list(size = 300)) %>% 
   hc_xAxis(title = "") %>% hc_yAxis(title = "")
 
+
+
+
+
+
+library(sp)
+library(rgdal)
+library(leaflet)
+library(leaflet.extras)
+library(mapview)  
+
+
+
+prod_miel <- readOGR("geodata", "ent_a", verbose=FALSE, encoding = "UTF")
+prodmiel2018 <- read.csv("tabs/prodmiel2018.csv", head= T)
+prod_miel$total2018 <- prodmiel2018[,3]
+map_prod_miel <- leaflet(data=prod_miel)
+clust <- kmeans(prod_miel$total2018,5)
+breaks <- sort(c(0, max((prod_miel$total2018)[clust$cluster == 1]),
+                 max((prod_miel$total2018)[clust$cluster == 2]),
+                 max((prod_miel$total2018)[clust$cluster == 3]),
+                 max((prod_miel$total2018)[clust$cluster == 4]),
+                 max((prod_miel$total2018)[clust$cluster == 5])))
+breaks2 <- c((round(breaks[-6],1)),(ceiling(breaks[6])))
+binpal <- colorBin("Oranges", prod_miel$total2018, breaks2)
+
+map_prod_miel %>%
+  setView(lng = -102.43, lat = 22.37, zoom = 5.4) %>%
+  addTiles() %>% addFullscreenControl() %>%
+  addPolygons(
+    stroke = FALSE,
+    fillOpacity = 1.0,
+    smoothFactor = 0.1,
+    color = ~binpal(total2018),
+    popup = paste0("<strong>CVE_ENT: </strong>", prod_miel$CVE_ENT, "</br>",
+                   "<strong>ENTIDAD: </strong>", prod_miel$NOMGEO, "</br>",
+                   "<strong>PRODUCCIÓN: </strong>", prod_miel$total2018)
+  ) #%>%
+#  addLegend(
+ #   "bottomleft", pal = binpal, values = ~total2018,
+#    title = "Producción de Miel <br/> (Toneladas)",
+#    opacity = 0.7
+#  )
 
 
 

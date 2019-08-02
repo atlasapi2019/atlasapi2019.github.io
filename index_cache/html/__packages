@@ -1,10 +1,10 @@
 base
-sp
 kableExtra
 DT
 dygraphs
 ggplot2
 plotly
+sp
 rgdal
 leaflet
 leaflet.extras
