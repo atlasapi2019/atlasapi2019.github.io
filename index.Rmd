@@ -63,7 +63,7 @@ A modo ilustrativo, se muestra el siguiente video del 2014, en el que una tienda
 
 <div class=text-center>
 
-<iframe width="710" height="427" src="https://www.youtube.com/embed/aio9iKtkUxw" frameborder="0" allowfullscreen></iframe>
+<iframe width="710" height="430" src="https://www.youtube.com/embed/aio9iKtkUxw" frameborder="0" allowfullscreen></iframe>
 
 
 </div>

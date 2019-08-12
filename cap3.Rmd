@@ -119,8 +119,12 @@ La extracción de la miel hasta su envasado en frascos, cubetas o tambores de mi
 **Envasado:** Es un proceso en el cual la miel se deposita en diferentes tipos de envases, ya sea para venta al menudeo, medio mayoreo o mayoreo, esto es, desde envases de aproximadamente ¼ de kilo hasta tambos de 300 kg. 
 
 Algunas empresas tienen procesos intermedios como la homogenización, el calentado y el filtrado de la miel.
-En el primer caso, cuando la miel sale de los extractores y es colada, pasa a unos tanques donde se mezcla con otras mieles procedentes de diferentes apiarios. Este paso tiene como principal objetivo homologar el color de las mieles para producir lotes uniformes. 
+En el primer caso, cuando la miel sale de los extractores y es colada, pasa a unos tanques donde se mezcla con otras mieles procedentes de diferentes apiarios. Este paso tiene como principal objetivo homologar el color de las mieles para producir lotes uniformes.
+
 Por lo que respecta al calentado, este es un proceso en el cual la miel se somete a un calentamiento y luego rápidamente se enfría, ello con el fin de destruir levaduras que puedan ocasionar que la miel fermente, y también para retardar el proceso de cristalización.
+
+<a name=a001></a> 
+
 En cuanto al filtrado, es un proceso más fino que el colado, y tiene como propósito retirar de la miel partículas más pequeñas para asegurar la ausencia de materias extrañas. No obstante, todos estos procesos pueden demeritar la calidad del producto.
 
 
@@ -473,7 +477,7 @@ Los recursos sociales, tales como las redes y asociaciones de productores y come
 
 Es de suma importancia que los apicultores se organicen en asociaciones locales o regionales para intercambiar conocimientos, crear redes de cooperación técnica y de financiamiento, representarse como gremio frente a las autoridades, presionar por apoyos gubernamentales y hacer frente común a amenazas a sus actividades. 
 
-En lo referente a organización de productores apícolas, la Unión Nacional de Apicultores (UNAPI) en 2005, se modificó para constituir la Organización Nacional de Apicultores (ONA), como organismo cúpula de este sector productivo. En marzo de 2015 se constituyó la Unión Nacional de Asociaciones de Apicultores de México (UNAAMEX). Existe también la [Federación Mexicana de Apicultores](https://www.facebook.com/federacionapicola/){target="_blank"}.
+En lo referente a organización de productores apícolas, la Unión Nacional de Apicultores (UNAPI) en 2005, se modificó para constituir la Organización Nacional de Apicultores (ONA), como organismo cúpula de este sector productivo. En marzo de 2015 se constituyó la Unión Nacional de Asociaciones de Apicultores de México (UNAAMEX), y está también la Federación Mexicana de Apicultores. La existencia de diversas asociaciones de carácter nacional pone en evidencia la necesidad de coordinar los esfuerzos de estas organizaciones que persiguen objetivos comunes.
 
 Adicionalmente, otras figuras asociativas se han fortalecido en los últimos años a nivel regional, entre ellas las Cooperativas y Sociedades de Solidaridad Social (SSS) y Sociedades de Producción Rural (SPR), sólo por citar algunas. Respecto a exportadores, La Asociación Nacional de Exportadores de Miel de Abeja (ANEMAAC), con 10 socios; La Asociación Ganadera Nacional de Criadores de Abejas Reina y Núcleos, que albergan entre 40 y 50 socios; La Asociación Nacional de Médicos Veterinarios Especialistas en Abejas, A. C. (ANMVEA) con aproximadamente 40 agremiados.
 

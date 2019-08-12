@@ -205,7 +205,7 @@ map_apicult %>%
 ## 5.2. Unidades Económicas de Venta de Miel, Fabricación de Insumos y Otros Servicios Relacionados con la Apicultura en México (Sectores Secundario y Terciario)
 ****
 
-**El siguiente mapa es un primer acercamiento hacia la construcción de un Directorio Nacional de Apicultores y Comercializadores de Miel y sus Derivados.** Contiene información georreferenciada de las unidades económicas que comercializan miel o realizan alguna actividad relacionada con la apicultura, y que se encuentran registradas en el *Directorio Estadístico Nacional de Unidades Económicas (DENUE)* del INEGI.
+**El siguiente mapa es un primer acercamiento hacia la construcción de un Directorio Nacional de Apicultores y Comercializadores de Miel y sus Derivados.** Contiene información georreferenciada de las unidades económicas que comercializan miel, prestan algun servicio relacionado con la apicultura o producen insumos para dicha actividad, y que se encuentran registradas en el *Directorio Estadístico Nacional de Unidades Económicas (DENUE)* del INEGI.
 
 <br/>
 
