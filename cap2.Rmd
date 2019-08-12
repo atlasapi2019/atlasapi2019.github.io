@@ -59,7 +59,7 @@ knitr::include_graphics("imag/_MG_1651.JPG")
 
 ***Fuente:***
 
-[Secretaría de Agricultura y Desarrollo Rural (SADER)](https://www.gob.mx/agricultura){target="_blank"} 
+[SADER. _Buenas Prácticas Pecuarias en la producción de Producción de Miel._ 2018.](pdfs/Manual_BPP_en_la_Producci_n_primaria_de_Miel_octubre_2018.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -127,7 +127,7 @@ Más allá del aspecto económico, la polinización adquiere relevancia en térm
 
 Abejas y plantas forman de este modo, un pilar que alimenta y enriquece el ecosistema, y que a su vez nutre a multitud de insectos, aves y mamíferos.
 
-La Secretaría de Agricultura y Desarrollo Rural (SADER, antes SAGARPA) señala que la apicultura en México tiene una gran importancia socioeconómica y ecológica, ya que las abejas son fundamentales para el equilibrio del medio ambiente, por ello, es importante implementar acciones que favorezcan su conservación y protección en el país.
+La Secretaría de Agricultura y Desarrollo Rural (SADER) señala que la apicultura en México tiene una gran importancia socioeconómica y ecológica, ya que las abejas son fundamentales para el equilibrio del medio ambiente, por ello, es importante implementar acciones que favorezcan su conservación y protección en el país.
 
 ***Fuentes:***
 
@@ -166,7 +166,7 @@ El manejo en las colmenas reúne una serie de actividades y procedimientos desti
 
 [Universidad Nacional Autónoma de México (UNAM). Facultad de Medicina Veterinaria y Zootecnista (FMVZ). Memorias de la _Reunión Internacional de Ciencias Veterinarias._ Junio, 2016.](pdfs/ABEJAS_CONEJOS_ORGANISMOS_ACUATICOS_MEMORIAS.pdf){target="_blank"}
 
-[SAGARPA. _Manual de buenas prácticas de Producción de Miel._ 2014.](pdfs/mbpp.pdf){target="_blank"}
+[SADER. _Buenas Prácticas Pecuarias en la producción de Producción de Miel._ 2018.](pdfs/Manual_BPP_en_la_Producci_n_primaria_de_Miel_octubre_2018.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -182,34 +182,60 @@ Otra de las razones de las divisiones es para disminuir la fiebre de la enjambra
 
 Existen muchas formas de enjambrar artificialmente a las colmenas, pero en este apartado únicamente se explicará 3 maneras que son las más usadas en la apicultura como son:
 
-*División en dos de una colmena.* La colmena se divide en dos partes iguales, tomando igual número de cuadros, abejas para ambas nuevas familias y la reina queda en la colmena madre. La colonia huérfana o nueva colonia es colocado al sitio de la cepa madre con el fin de reforzar con las pecoreadoras que estaban fuera al momento de realizar la división, por lo que la cepa madre es llevado a 20 metros del sitio original para evitar que las abejas sin reina se cambien de caja ya que no están acostumbradas a vivir si reina. 
+*División en dos de una colmena.* La colmena se divide en dos partes iguales, tomando igual número de cuadros, abejas para ambas nuevas familias y la reina queda en la colmena madre. La colonia huérfana o nueva colonia es colocado al sitio de la cepa madre con el fin de reforzar con las pecoreadoras que estaban fuera al momento de realizar la división, por lo que la cepa madre es llevado a 20 metros del sitio original para evitar que las abejas sin reina se cambien de caja ya que no están acostumbradas a vivir sin reina. 
 
 
+```{r i0_2_6_01a, fig.align='center', out.width = "100%", out.height = "100%", fig.cap="**Fig. 3 División de dos de una colmena**", echo=FALSE, cache=TRUE}
 
+library(DiagrammeR)
 
-```{r i0_2_6_01, fig.align='center',fig.height= 3, fig.width= 6, echo=FALSE, out.width = "50%", fig.cap="**Fig. 3 División de dos de una colmena**", cache=TRUE}
-
-knitr::include_graphics("imag/division_dos_colmenas.png")
-
+DiagrammeR::mermaid("
+                    graph TB
+                    A(  Cepa madre con <br/> 10 cuadros +  REINA  ) --> B( Cepa madre con 5 cuadros + <br/> REINA a 20 metros de sitio original )
+                    A-->C(  Colonia Nueva con 5 cuadros <br/> S/REINA al sitio de la madre   )
+                    C-->A
+                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    ")
 ```
 
 <br/>
 
 *Método de abanico.* Se toman 8 cuadros con abejas sin reina de la cepa madre a una caja nueva y es colocado en el sitio de la madre para reforzar con las pecoreadoras que llegan de recolectar néctar y polen, por lo que la colmena original con dos cuadros mas la reina es llevado a 20 metros de su sitio original. Colmena con 8 cuadros sin reina se divide en 4 nuevas colonias después de entre 8 a 10 días periodo suficiente para que las abejas construyan celdas realeras.
 
-```{r i0_2_6_02, fig.align='center',fig.height= 3, fig.width= 6, echo=FALSE, out.width = "60%", fig.cap="**Fig. 4 Método de abanico**", cache=TRUE}
+```{r i0_2_6_02a, fig.align='center', out.width = "100%", out.height = "100%", fig.cap="**Fig. 4 Método de abanico**", echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/enjambrazon.png")
+library(DiagrammeR)
 
+DiagrammeR::mermaid("
+                    graph LR
+                    A(  Colmena madre  ) --> B( Colmena con 8 cuadros </br> S/R al sitio de la madre </br> Después de 8 días, éstas se dividen )
+                    A --> C(  Colmena con 2 cuadros + </br> R a 10 metros del sitio original )
+                    B --> D(  4 Colmenas con 2 cuadros </br> + Realeras )
+            
+                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:khaki,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    style D fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    ")
 ```
 <br/>
 
 *Método provenzal.* Es un método similar al método de abanico solo que los dos cuadros con abejas y sin reina es llevado lejos del sitio original y los otros 8 cuadros más la presencia de reina en su sitio original de la colmena madre.
 
-```{r i0_2_6_03, fig.align='center',fig.height= 3, fig.width= 6, echo=FALSE, out.width = "60%", fig.cap="**Fig. 5 Método provenzal**", cache=TRUE}
+```{r i0_2_6_03a, fig.align='center', out.width = "100%", out.height = "100%", fig.cap="**Fig. 5 Método provenzal**", echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/colmena_madre.png")
+library(DiagrammeR)
 
+DiagrammeR::mermaid("
+                    graph LR
+                    A(  Colmena madre  ) --> B( Nueva colmena con 2 bastidores </br> S/R lejos del sitio )
+                    A --> C(  Colmena con 8 cuadros + </br> R en su sitio de la madre )
+                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:khaki,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                                       ")
 ```
 
 <br/>
@@ -232,7 +258,7 @@ En el _Plan Nacional de Desarrollo 2013-2018_ se establece como una de las cinco
 
 Por otra parte, la Ley Federal de Presupuesto y Responsabilidad Hacendaria establece que la Cámara de Diputados en el Presupuesto de Egresos, podrá señalar los programas, a través de los cuales se otorguen subsidios, y que deberán sujetarse a reglas de operación, con el objeto de asegurar que la aplicación de los recursos públicos se realice con eficiencia, eficacia, economía, honradez y transparencia.  
 
-Bajo ese contexto, las reglas de operación de los programas de la SADER (antes SAGARPA) se integran con una estructura dirigida a desarrollar y potencializar la productividad y eficiencia de los productores del sector agropecuario, pesquero y acuícola; definen los diferentes tipos de apoyo que se otorgan en efectivo o en especie, señalando montos o unidades a entregar por beneficiario.  
+Bajo ese contexto, las reglas de operación de los programas de la SADER se integran con una estructura dirigida a desarrollar y potencializar la productividad y eficiencia de los productores del sector agropecuario, pesquero y acuícola; definen los diferentes tipos de apoyo que se otorgan en efectivo o en especie, señalando montos o unidades a entregar por beneficiario.  
 
 Los programas y sus componentes están sujetos al presupuesto autorizado en el Presupuesto de Egresos de la Federación para el año fiscal correspondiente; incluyen estímulos de diferente orden, y sus objetivos, componentes y conceptos se complementan para atender las necesidades de los productores. 
 
@@ -278,7 +304,7 @@ Requisitos específicos por componente:
 
 ***Fuente:***
 
-[Programa de Fomento Ganadero. SAGARPA](https://sader.gob.mx/padron-de-beneficiarios/programa-de-fomento-ganadero-3){target="_blank"}
+[Programa de Fomento Ganadero, 2019. SADER](https://www.gob.mx/agricultura/documentos/documentos-del-programa-de-fomento-ganadero-2019){target="_blank"}
 
 <br/>
 
@@ -311,7 +337,7 @@ Con el propósito de **proteger el valor social y económico de la apicultura en
 
   1. El acompañamiento técnico a los productores apícolas sobre la importancia, prevención y control de los riesgos derivados de la presencia de la abeja africanizada y las acciones inherentes como son: la correcta instalación de apiarios, el manejo, control y aprovechamiento de enjambres, y la sustitución de abejas reina, entre otros.  
 
-  2. La **supervisión y asesoría a productores o criadores de abejas reina y de núcleos de abejas interesados en obtener la certificación genética y sanitaria** de la producción del material biológico apícola, para garantizar que éste se obtenga, comercialice y movilice en estricto apego a la normativa oficial. Adicionalmente, esta acción permite a los productores ser proveedores de este material biológico en los programas de apoyo de la SAGARPA (ahora SADER).
+  2. La **supervisión y asesoría a productores o criadores de abejas reina y de núcleos de abejas interesados en obtener la certificación genética y sanitaria** de la producción del material biológico apícola, para garantizar que éste se obtenga, comercialice y movilice en estricto apego a la normativa oficial. Adicionalmente, esta acción permite a los productores ser proveedores de este material biológico en los programas de apoyo de la SADER.
 
   3. La asesoría para el desarrollo de programas de selección y mejoramiento genético apícola, a fin de que los productores, especialmente en las zonas con alta presencia de abeja africana, aprovechen las características favorables de esta abeja (mayor actividad y menor susceptibilidad a la presencia de enfermedades) y reducir la frecuencia de aquellos comportamientos negativos, para que una vez seleccionada, puedan emplearla como pie de cría en la producción de abejas reina.  
 
@@ -325,17 +351,17 @@ Con el propósito de **proteger el valor social y económico de la apicultura en
 
   8. La organización y realización de **eventos para la promoción del consumo de la miel y otros productos de las abejas**, y la promoción a la importancia de la apicultura (y en especial de las abejas), como mecanismo para generar mayores ingresos a los productores, necesarios para afrontar el incremento en sus costos de producción, derivados de la presencia de la abeja africana. Entre estas acciones se encuentran:  
 
-    1. _Eventos de degustación de miel y subproductos apícolas (EXPOMIEL)_, en los cuales los propios apicultores realizan la comercialización de sus productos y asesoran al público en general acerca de sus propiedades y de la forma en la que pueden prevenir fraudes por la venta de productos adulterados o apócrifos.  
+      8.1. _Eventos de degustación de miel y subproductos apícolas (EXPOMIEL)_, en los cuales los propios apicultores realizan la comercialización de sus productos y asesoran al público en general acerca de sus propiedades y de la forma en la que pueden prevenir fraudes por la venta de productos adulterados o apócrifos.  
 
-    2. _Organización del Concurso de Dibujo Infantil_, realizado año con año, a nivel estatal y nacional, en coordinación con instancias de educación, consistente en la difusión de la importancia de la abeja y sus productos, a través de pláticas en escuelas y la convocatoria para que los niños elaboren dibujos con dicha temática.  
+      8.2. _Organización del Concurso de Dibujo Infantil_, realizado año con año, a nivel estatal y nacional, en coordinación con instancias de educación, consistente en la difusión de la importancia de la abeja y sus productos, a través de pláticas en escuelas y la convocatoria para que los niños elaboren dibujos con dicha temática.  
 
 9.	**La capacitación especializada, para la adopción de tecnología** y la diversificación de la actividad apícola; sustituyendo el esquema tradicional de producción exclusiva de miel y su comercialización a granel, por la producción adicional de polen, propóleos, jalea real y su agregación de valor mediante la industrialización, para generar subproductos, como complementos alimenticios y cosméticos, entre otros.  
 
-10.	**Acompañamiento técnico en la adopción de las Buenas Prácticas de Producción Apícola**, a fin de que los productores apícolas puedan integrarse a las cadenas productivas y se mantenga la competitividad de la miel mexicana en el mundo, aún cuando se trabaja con abejas africanizadas. Como parte de esta acción, se realiza la supervisión de unidades de producción y se emite un reconocimiento a los productores que modifican su infraestructura y procedimientos productivos conforme a los _Manuales de Buenas Prácticas de Producción de Miel_, elaborados y difundidos por la SAGARPA (ahora SADER).  
+10.	**Acompañamiento técnico en la adopción de las Buenas Prácticas de Producción Apícola**, a fin de que los productores apícolas puedan integrarse a las cadenas productivas y se mantenga la competitividad de la miel mexicana en el mundo, aún cuando se trabaja con abejas africanizadas. Como parte de esta acción, se realiza la supervisión de unidades de producción y se emite un reconocimiento a los productores que modifican su infraestructura y procedimientos productivos conforme a los _Manuales de Buenas Prácticas de Producción de Miel_, elaborados y difundidos por la SADER.  
 
 <br/>
 
-Los distintos servicios **se proporcionan a demanda y de forma gratuita**, a través del personal adscrito a este programa en las delegaciones y en las oficinas centrales de la SADER (antes SAGARPA), siendo susceptibles de atención todos los productores y organizaciones solicitantes, de acuerdo a la disponibilidad de recursos.
+Los distintos servicios **se proporcionan a demanda y de forma gratuita**, a través del personal adscrito a este programa en las delegaciones y en las oficinas centrales de la SADER, siendo susceptibles de atención todos los productores y organizaciones solicitantes, de acuerdo a la disponibilidad de recursos.
 
 <br/>
 
@@ -346,7 +372,7 @@ knitr::include_graphics("imag/_MG_3483.JPG")
 ```
 ***Fuente:***
 
-[Programa Nacional para el Control de la Abeja Africana (PNPCAA). SAGARPA](https://sader.gob.mx/padron-de-beneficiarios/programa-de-fomento-ganadero-3){target="_blank"}
+[Norma Oficial Mexicana NOM-002-SAG/GAN-2016, Actividades técnicas y operativas aplicables al Programa Nacional para el Control de la Abeja Africana.](http://dof.gob.mx/nota_detalle.php?codigo=5455751&fecha=05/10/2016){target="_blank"}
 
 
 <br/>
@@ -379,7 +405,7 @@ kableExtra::kable(tab2_10_1) %>%
 
 ***Fuente:***
 
-[Secretaría de Economía. Instituto Nacional del Emprendedor. *Guías empresariales. Miel*.](http://www.contactopyme.gob.mx/guiasempresariales/guias.asp?s=8&guia=38&giro=1){target="_blank"}
+[Secretaría de Economía. Instituto Nacional del Emprendedor. *Guías empresariales. Miel* 2019.](http://www.contactopyme.gob.mx/guiasempresariales/guias.asp?s=8&guia=38&giro=1){target="_blank"}
 
 <br/>
 <br/>
@@ -396,7 +422,7 @@ México ocupa el sexto lugar mundial como productor de miel de abeja y el tercer
 
 ***Fuente:*** 
 
-*SAGARPA.* Nota de prensa Enero, 2016.
+*SADER.* Nota de prensa. Enero, 2016.
 
 <br/>
 <br/>
@@ -418,7 +444,7 @@ Los cultivos beneficiados con la polinización por abejas son principalmente los
 ```{r tab0x11, echo=FALSE }
 library(kableExtra)
 tabtab0x11 <- read.csv("tabs/poliniza_colm.csv", encoding = "UTF")
-names(tabtab0x11) <- c( "DELEGACIÓN SAGARPA", "CULTIVOS", "COLMENAS")
+names(tabtab0x11) <- c( "DELEGACIÓN SADER", "CULTIVOS", "COLMENAS")
 
 kableExtra::kable(tabtab0x11, align = c('l','l','r')) %>%
   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"))
@@ -429,7 +455,28 @@ kableExtra::kable(tabtab0x11, align = c('l','l','r')) %>%
 
 ***Fuente:*** 
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34. ](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34. ](pdfs/ca199-3.pdf){target="_blank"}
+
+<br/>
+<br/>
+
+Según datos del [*informe de evaluación de la Plataforma Intergubernamental Científico-normativa sobre Diversidad Biológica y Servicios de los Ecosistemas sobre polinizadores, polinización y producción de alimentos*](pdfs/ipbes_4_19_annex_ii_spm_pollination_es.pdf){target="_blank"}, las especies polinizadoras son en su inmensa mayoría silvestres, e incluyen más de 20.000 especies de abejas, algunas especies de moscas, mariposas, polillas, avispas, escarabajos, tisanópteros, aves, murciélagos y otros vertebrados. La gestión de algunas especies de abejas está muy extendida, entre ellas la abeja melífera occidental (Apis mellifera), la abeja melífera oriental (Apis cerana), algunos abejorros, abejas sin aguijón y algunas abejas solitarias. La abeja melífera occidental es el polinizador gestionado mas extendido del planeta: se calcula que en el mundo existen alrededor de 81 millones de colmenas que producen 1,6 millones de toneladas de miel al año.
+
+El siguiente video, realizado en 2018 por dicho organismo, resalta este importante aspecto:
+
+</div>
+
+<br>
+
+<div class=text-center>
+
+<iframe width="710" height="427" src="https://www.youtube.com/embed/6362aJNNt1s" frameborder="0" allowfullscreen></iframe>
+
+
+</div>
+
+
+<div class=text-justify>
 
 <br/>
 <br/>
@@ -442,13 +489,13 @@ Se denomina **trashumancia**, al movimiento de colmenas de una localización geo
 
 Cuando las floraciones se producen de forma muy distanciada, se ralentiza la oviposición de la reina, disminuye el relevo generacional y desciende la población. Si las abejas tienen que recurrir a las reservas de los panales, motivadas por un cese de los aportes a la colmena, entonces la puesta se detiene por completo, la colmena se somete a restricciones, e incluso a la expulsión de los zánganos como una adaptación obligada a esa situación de penuria. Esto perjudica al apicultor al no generar excedentes de miel sobre los panales.
 
-En México, Jaime Rodríguez López, delegado federal de la SAGARPA (ahora SADER) en Michoacán, informó en 2017 que en dicho estado los servicios de polinización que demandan los productores de melón, pepino, fresa, zarzamora, frambuesa, arándanos y aguacate, favorecieron la trashumancia, al registrar movilizaciones de colmenas procedentes de otros estados y del interior de la misma entidad, de alrededor de 20 mil colmenas para este propósito. lo cual seguirá incrementándose, ya que se requieren poco más de 600 mil colmenas aproximadamente, para cubrir la demanda de dicho servicio. 
+En México, Jaime Rodríguez López, delegado federal de la SADER en Michoacán, informó en 2017 que en dicho estado los servicios de polinización que demandan los productores de melón, pepino, fresa, zarzamora, frambuesa, arándanos y aguacate, favorecieron la trashumancia, al registrar movilizaciones de colmenas procedentes de otros estados y del interior de la misma entidad, de alrededor de 20 mil colmenas para este propósito. lo cual seguirá incrementándose, ya que se requieren poco más de 600 mil colmenas aproximadamente, para cubrir la demanda de dicho servicio. 
 
 <br/>
 
 ***Fuente:***
 
-[Delegación SADER Michoacán. *Destacada la Actividad de la Apicultura, Señala SAGARPA Michoacán.*  Mayo, 2017.](https://www.gob.mx/sader/michoacan/articulos/destacada-la-actividad-de-la-apicultura-senala-sagarpa-michoacan?idiom=es){target="_blank"}
+[Delegación SADER Michoacán. *Destacada la Actividad de la Apicultura, Señala SADER Michoacán.*  Mayo, 2017.](https://www.gob.mx/sader/michoacan/articulos/destacada-la-actividad-de-la-apicultura-senala-sagarpa-michoacan?idiom=es){target="_blank"}
 
 <br/>
 <br/>
@@ -525,7 +572,7 @@ La sola práctica de cambiar la abeja reina una vez al año a la colonia comerci
 
 ***Fuente:***
 
-[SAGARPA. Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP). _Generalidades del Mejoramiento Genético en Abejas._ Noviembre, 2008.](pdfs/Generalidades del mejoramiento genetico de las abejas.pdf){target="_blank"}
+[SADER. Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP). _Generalidades del Mejoramiento Genético en Abejas._ Noviembre, 2008.](pdfs/Generalidades del mejoramiento genetico de las abejas.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -554,7 +601,7 @@ kableExtra::kable(tab0004) %>%
 ```
 
 
-Si desea saber más sobre las enfermedades que afectan a las abejas y su tratamiento consulta el [Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"} SAGARPA, 2012.  
+Si desea saber más sobre las enfermedades que afectan a las abejas y su tratamiento consulta el [Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"} SADER, 2012.  
 
 <br/>
 <br/>
@@ -578,7 +625,7 @@ kableExtra::kable(tab0005) %>%
 ```
 
 
-Si desea saber más sobre las enfermedades que afectan a las abejas y su tratamiento consulta el [Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"} SAGARPA, 2012.  
+Si desea saber más sobre las enfermedades que afectan a las abejas y su tratamiento consulta el [Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"} SADER, 2012.  
 
 <br/>
 <br/>
@@ -678,9 +725,7 @@ Mitigar los efectos del cambio climático, no es solo compromiso de los producto
 
 ***Fuente:***
 
-Medellín-Pico RA. Impacto del Cambio Climático en la Apicultura. 
-Memorias del 3er Encuentro Latinoamericano de Apicultores. 
-Palacio de Convenciones de la Habana, Cuba. Abril del 2012.
+Medellín-Pico RA. *Impacto del Cambio Climático en la Apicultura.* Memorias del 3er Encuentro Latinoamericano de Apicultores. La Habana, Cuba. Abril, 2012.
 
 
 <br/>
@@ -702,9 +747,9 @@ Entre los insecticidas pueden encontrarse sustancias como los _neonicotinoides_ 
 
 Todo plaguicida es tóxico; sin embargo, la dosis es la que determina el efecto. Científicamente está comprobado que los insecticidas actúan sobre el sistema nervioso de la abeja generando daños irreversibles como la pérdida de la memoria, parálisis y muerte, en este sentido, dosis subletales resultan en desorientación y pérdida de la memoria, es por ello que las abejas salen de sus colmenas en busca de alimento y ya no regresan, así que la colmena colapsa. De todas las familias de insecticidas, los neonicotinoides son de los más tóxicos, por ejemplo, solo una dosis oral de 5 nanogramos de _imidacloprid_ es suficiente para matar a una abeja.
 
-Debido a que este es un problema emergente y de gran relevancia en México, la cámara de diputados ha solicitado información y apoyo científico para fortalecer exhortos dirigidos a la SAGARPA (ahora SADER)., a la Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT) y a la Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).  
+Debido a que este es un problema emergente y de gran relevancia en México, la cámara de diputados ha solicitado información y apoyo científico para fortalecer exhortos dirigidos a la SADER, a la Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT) y a la Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).  
 
-Asimismo, es necesario impulsar iniciativas que establezcan la regulación, la vigilancia, el buen uso o, en su caso, la prohibición de plaguicidas altamente peligrosos. Sin embargo, ante la prioridad de la mortandad de abejas, se debe proteger al sector apícola a través de una estrecha comunicación entre autoridades, agricultores y apicultores; asimismo, hacer efectivas las recomendaciones que da el manual de buenas prácticas de la SAGARPA (ahora SADER). tras la aplicación de plaguicidas en cultivos.
+Asimismo, es necesario impulsar iniciativas que establezcan la regulación, la vigilancia, el buen uso o, en su caso, la prohibición de plaguicidas altamente peligrosos. Sin embargo, ante la prioridad de la mortandad de abejas, se debe proteger al sector apícola a través de una estrecha comunicación entre autoridades, agricultores y apicultores; asimismo, hacer efectivas las recomendaciones que da el manual de buenas prácticas de la SADER. tras la aplicación de plaguicidas en cultivos.
 
 <br/>
 
@@ -754,7 +799,7 @@ Como recomendación, se sugiere controlar, en la medida de lo posible, los facto
  
 ***Fuente:***
 
-[Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"}
+[SADER (Compilador). *Manual de Patología, Diagnóstico y Control de las Principales Enfermedades y Plagas de las Abejas Melíferas.* 2012](pdfs/PATOLOGIA_DIAGN_CNTRL_ENFRMDDS_ABEJAS_MELIFERAS.pdf){target="_blank"}
 
 
 

@@ -129,7 +129,7 @@ En cuanto al filtrado, es un proceso más fino que el colado, y tiene como prop�
 
 Elaboró:
 
-**Laura G. Espinosa Montaño:** *Profesora Asociada C, TC. Departamento de Medicina y Zootecnia de Abejas, Conejos y Organismos Acuáticos. Facultad de Medicina Veterinaria y Zootecnia. Universidad Nacional Autónoma de México. Correo electrónico: laugespi@unam.mx Tel.(55) 56-22-59-29 ext 6*
+**Laura G. Espinosa Montaño:** *Profesora Asociada C, TC. Departamento de Medicina y Zootecnia de Abejas, Conejos y Organismos Acuáticos. Facultad de Medicina Veterinaria y Zootecnia. Universidad Nacional Autónoma de México. Correo electrónico: laugespi@unam.mx Tel.(55) 56-22-59-29 ext 6.*
 
 <br/>
 <br/>
@@ -151,7 +151,7 @@ La miel es usada ampliamente como una fuente de azúcares para producir vino y c
 
 ***Fuente:***
 
-[Nicola Bradbear(2005). FAO. La apicultura y los medios de vida sostenibles.](http://www.fao.org/3/y5110s/y5110s06.htm#bm06){target="_blank"}
+[Nicola Bradbear(2005). *FAO. La apicultura y los medios de vida sostenibles.* 2005.](http://www.fao.org/3/y5110s/y5110s06.htm#bm06){target="_blank"}
 
 
 <br/>
@@ -162,9 +162,9 @@ La miel es usada ampliamente como una fuente de azúcares para producir vino y c
 ##  3.5. Manejo y Comercialización de la Miel   
 ****
 
-Aunque México exporta miel a Estados Unidos y Japón, Alemania se mantiene como el primer destino de las exportaciones mexicanas de este producto, con 15.3% de las mismas, en 2017. Esto es una evidencia de que la calidad y sabor de la miel mexicana es bien vista en los mercados internacionales, lo que acarrea beneficios a los pequeños productores y mujeres emprendedoras de zonas rurales del país, principalmente.
+Aunque México exporta miel a Estados Unidos,  Japón, Alemania se mantiene como el primer destino de las exportaciones mexicanas de este producto, con 15.3% de las mismas, en 2017. Esto es una evidencia de que la calidad y sabor de la miel mexicana es bien vista en los mercados internacionales, lo que acarrea beneficios a los pequeños productores y mujeres emprendedoras de zonas rurales del país, principalmente.
 
-En un comunicado, la SADER (antes SAGARPA) informó que en 2017 se lograron producir 50,955 toneladas de este endulzante natural, por lo que implementa programas y acciones que fomentan la actividad apícola en el país, con el fin de recuperar el volumen histórico promedio de producción. Refirió que de acuerdo con el *Servicio de Información Agroalimentaria y Pesquera* (SIAP), noviembre y diciembre fueron los meses de mayor producción durante 2017, al alcanzar 9,477 y 8,048 toneladas, respectivamente.
+En un comunicado, la SADER informó que en 2017 se lograron producir 50,955 toneladas de este endulzante natural, por lo que implementa programas y acciones que fomentan la actividad apícola en el país, con el fin de recuperar el volumen histórico promedio de producción. Refirió que de acuerdo con el *Servicio de Información Agroalimentaria y Pesquera* (SIAP), noviembre y diciembre fueron los meses de mayor producción durante 2017, al alcanzar 9,477 y 8,048 toneladas, respectivamente.
 
 Para garantizar a los consumidores que la miel mexicana cumple con altos estándares de inocuidad, el *Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria* (SENASICA) lleva a cabo un programa de monitoreo permanente de residuos tóxicos y contaminantes, y trabaja de la mano con los productores para preservar su inocuidad. A través del *Programa de Monitoreo de Residuos Tóxicos y Contaminantes a Bienes de Origen Animal, Acuícola y Pesquero*, explicó que el personal del SENASICA comprueba que la miel producida en México no tiene contaminantes físicos, químicos o microbiológicos que pudieran afectar su calidad de exportación.
 
@@ -174,7 +174,7 @@ Los verificadores sanitarios recolectan muestras de manera aleatoria en las unid
 
 ***Fuente:***
 
-SAGARPA: Comunicado de prensa enero de 2018
+SADER. *Comunicado de prensa.* Enero, 2018.
 <br/>
 <br/>
 <br/>
@@ -197,7 +197,7 @@ Se observó que el precio de los insumos aumentan constantemente, que los rendim
 
 ***Fuente:*** 
 
-[Contreras Uc L., y Magaña Magaña M. *Costos y rentabilidad de la apicultura a pequeña escala en comunidades mayas del Litoral Centro de Yucatán, México.* Investigación y Ciencia, 25 (71), p. 52-58. 2017](pdfs/67452917007.pdf){target="_blank"}
+[Contreras Uc L., y Magaña Magaña M. *Costos y rentabilidad de la apicultura a pequeña escala en comunidades mayas del Litoral Centro de Yucatán, México.* Investigación y Ciencia, 25 (71), p. 52-58. 2017.](pdfs/67452917007.pdf){target="_blank"}
 
 
 <br/>
@@ -218,7 +218,7 @@ Las ventas se basan principalmente tambores de miel a granel de 200 litros, la m
 
 ***Fuente:*** 
 
-[Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). *Sistemas productivos sostenibles y biodiversidad*](https://www.biodiversidad.gob.mx/SPSB/apicultura.html){target="_blank"}
+[Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). *Sistemas productivos sostenibles y biodiversidad.* 2018.](https://www.biodiversidad.gob.mx/SPSB/apicultura.html){target="_blank"}
 
 <br/>
 <br/>
@@ -231,8 +231,10 @@ Las ventas se basan principalmente tambores de miel a granel de 200 litros, la m
 
 La miel es una sustancia dulce natural que las abejas (*Apis mellifera*) elaboran al transformar o combinar el néctar o secreciones que producen las flores, con sustancias específicas propias.
 
-Las características de la miel dependen de la fuente donde las abejas recolectan el néctar, sin embargo, el producto no debe tener sabor ni aroma desagradables, debe estar libre de materia extraña y de contaminantes químicos; tampoco debe contener aditivos alimentarios para su conservación, estar diluida en agua o mezclada con almidones, melazas, glucosas, dextrina, fructosa u otros azúcares, de acuerdo con lo que establece la Norma *NMX-F-036-981*. Esta Norma Mexicana establece las especificaciones que debe cumplir la miel de abeja
-destinada para consumo humano directo en envases menores de 10 Kgs.
+Las características de la miel dependen de la fuente donde las abejas recolectan el néctar, sin embargo, el producto no debe tener sabor ni aroma desagradables, debe estar libre de materia extraña y de contaminantes químicos; tampoco debe contener aditivos alimentarios para su conservación, estar diluida en agua o mezclada con almidones, melazas, glucosas, dextrina, fructosa u otros azúcares, de acuerdo con lo que establece el Proyecto de Norma Oficial Mexicana [**NOM-004-SAG/GAN-2018, Producción de miel y especificaciones.**](https://dof.gob.mx/nota_detalle.php?codigo=5546962&fecha=20/12/2018){target="_blank"}. Esta Norma Oficial, por aprobarse, establece las características generales para la producción de miel que propicien el cuidado de las abejas melíferas y su correcto desarrollo, así como, las especificaciones que la miel debe cumplir para su comercialización, ya sea para consumo directo y/o procesamiento; a fin de coadyuvar en el desarrollo de la apicultura nacional y la competitividad de la cadena de la miel. 
+
+La anterior se complementa con la Norma [**NMX-F-036-NORMEX-2006. Alimentos, Miel. Especificaciones y métodos de prueba.**](pdfs/NMX-F-036-1981.PDF){target="_blank"}, que establece las especificaciones que debe cumplir la miel de abeja
+destinada para consumo humano directo en envases menores de 10 Kgs, y también la Norma [**NOM-145-SCFI-2001. Información comercial. Etiquetado de miel en sus diferentes presentaciones**](pdfs/NOM-145-SCFI-2001.PDF){target="_blank"}, que establece los lineamientos para el etiquetado de miel en sus diferentes presentaciones.
 
 <br/>
 
@@ -271,7 +273,7 @@ También existe otro fraude en la industria apícola, que se relaciona con su or
 
 ***Fuentes:*** 
 
-[Procuraduría Federal del Consumidor (PROFECO). *Revista del Consumidor.* Enero , 2001.](pdfs/miel.pdf){target="_blank"}
+[Procuraduría Federal del Consumidor (PROFECO). *Estudio de Calidad de Miel de Abeja.* Junio, 2018.](pdfs/Estudio_de_Calidad_Miel_de_Abeja.pdf){target="_blank"}
 
 [Ríos Corripio M. A. y Rojas López M. *Analisis de adulteracion en miel de abeja de la region Puebla-Tlaxcala empleando espectroscopia infrarroja.* Presentado en el XIV Congreso Nacional de Biotecnología y Bioingeniería. Nov., 2012.](pdfs/CIII-80.pdf){target="_blank"}
 
@@ -312,7 +314,7 @@ Cabe mencionar, que la aplicación de estas técnicas implica algunos costos adi
 
 ***Fuente:*** 
 
-[Manual de buenas prácticas pecuarias en la producción de miel (2018)](pdfs/Manual_BPP_en_la_Producci_n_primaria_de_Miel_octubre_2018.pdf){target="_blank"}
+[SADER. _Buenas Prácticas Pecuarias en la producción de Producción de Miel._ 2018.](pdfs/Manual_BPP_en_la_Producci_n_primaria_de_Miel_octubre_2018.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -330,13 +332,13 @@ Algunos de los problemas en el comercio bilateral con la Unión Europea (UE) res
 
 El Proyecto de Facilitación del Tratado de Libre Comercio entre México y la Unión Europea (PROTLCUEM) prevé fomentar el desarrollo de las actividades de normalización, promoviendo la utilización y creación de normas, reglamentos técnicos y procedimientos de evaluación de la conformidad conforme a prácticas, normas y lineamientos internacionales e incrementando el conocimiento y entendimiento mutuo de las mismas, con el fin de facilitar los intercambios comerciales de bienes y servicios entre México y la UE, y una estrecha cooperación entre todas las partes interesadas de ambas partes en los campos técnico, científico y económico.
 
-En el caso de la miel para exportación, además de la normatividad exigida por la UE, el producto debe cumplir con la [*Norma Oficial Mexicana NOM-120-SSA1-1994, Bienes Y Servicios. Prácticas De Higiene Y Sanidad Para El Proceso De Alimentos, Bebidas No Alcohólicas Y Alcohólicas.*](http://www.salud.gob.mx/unidades/cdi/nom/120ssa14.html){target="_blank"}
+En el caso de la miel para exportación, además de la normatividad exigida por la UE, el producto debe cumplir con la [*NORMA Oficial Mexicana NOM-251-SSA1-2009, Prácticas de higiene para el proceso de alimentos, bebidas o suplementos alimenticios.*](http://www.dof.gob.mx/normasOficiales/3980/salud/salud.htm){target="_blank"}
 
 <br/>
 
 ***Fuente:***
 
-[Secretaría de Economía. *Normas Técnicas.*](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Normas_Tecnicas){target="_blank"}
+[Secretaría de Economía. *Normas Técnicas.* 2010.](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Normas_Tecnicas){target="_blank"}
 
 <br/>
 
@@ -351,7 +353,7 @@ En este contexto, el PROTLCUEM pretende alcanzar la mejora del intercambio de in
 <br/>
 ***Fuente:***
 
-[Secretaría de Economía. *Aduanas.*](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Aduanas){target="_blank"}
+[Secretaría de Economía. *Aduanas.* 2010.](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Aduanas){target="_blank"}
 
 <br/>
 
@@ -366,7 +368,7 @@ En este marco general, el PROTLCUEM promueve una mayor cooperación técnica ent
 <br/>
 ***Fuente:***
 
-[Secretaría de Economía. *Medidas Sanitarias y Fitosanitarias (MSF).*](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Med_Sanit){target="_blank"}
+[Secretaría de Economía. *Medidas Sanitarias y Fitosanitarias.* 2010.*](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_Med_Sanit){target="_blank"}
 
 <br/>
 
@@ -422,7 +424,7 @@ Es conveniente observar las Normas Oficiales Mexicanas para cumplir con estánda
 
 ***Fuente:***
 
-[Secretaría de Economía. *Requisitos y Trámites.*](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_requisitosm){target="_blank"}
+[Secretaría de Economía. *Requisitos y Trámites para Exportación a la Unión Europea.* 2010.](http://www.protlcuem.gob.mx/swb/es/Protlcuem/p_requisitosm){target="_blank"}
 
 
 <br/>
@@ -457,9 +459,9 @@ Los recursos sociales, tales como las redes y asociaciones de productores y come
 
 ***Fuentes:***
 
-[Fideicomiso de Riesgo Compartido. *Apicultura, Actividad De Gran Importancia Para La Economía Y El Medio Ambiente En México.*  SAGARPA, Diciembre, 2016.](https://www.gob.mx/firco/articulos/apicultura-actividad-de-gran-importancia-para-la-economia-y-el-medio-ambiente-en-mexico?idiom=es){target="_blank"}
+[Fideicomiso de Riesgo Compartido. *Apicultura, Actividad De Gran Importancia Para La Economía Y El Medio Ambiente En México.*  SADER, Diciembre, 2016.](https://www.gob.mx/firco/articulos/apicultura-actividad-de-gran-importancia-para-la-economia-y-el-medio-ambiente-en-mexico?idiom=es){target="_blank"}
 
-[FAO. *La apicultura ayuda a crear sistemas de vida sostenibles.*](http://www.fao.org/docrep/008/y5110s/y5110s02.htm){target="_blank"}
+[FAO. *La apicultura ayuda a crear sistemas de vida sostenibles.* 2005.](http://www.fao.org/docrep/008/y5110s/y5110s02.htm){target="_blank"}
 
 <br/>
 <br/>
@@ -487,7 +489,7 @@ En el [**Capítulo 2.7**](cap2.html#a002) se muestra un directorio con las princ
 
 ***Fuente:***
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34.](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, , p. 3-34, marzo, 2010.](pdfs/ca199-3.pdf){target="_blank"}
 
 
 <br/>
@@ -543,9 +545,9 @@ La escasez de alimento, el desajuste en la dinámica poblacional y las limitacio
 
 ***Fuentes:***
 
-[Medellín-Pi, Rodrigo A. *Impacto del Cambio Climático en la Agricultura.* SAGARPA - UNAM.FMVZ. 2011.](pdfs/1 Cambio.pdf){target="_blank"}
+[Medellín-Pi, Rodrigo A. *Impacto del Cambio Climático en la Agricultura.* SADER - UNAM.FMVZ. 2011.](pdfs/1 Cambio.pdf){target="_blank"}
  
-[Castellanos Potenciano B. P., Gallardo López F., Sol Sánchez A., Landeros Sánchez C., Díaz Padilla G., Sierra Figueredo P., Santibañez Galarza J. L.  *Impacto Potencial del Cambio Climático en la Apicultura.* Revista Iberoamericana de Bioeconomia y Cambio Climático, Vol. 2, Núm. 1, 2016, p. 1-19.](pdfs/2016_ 2.pdf){target="_blank"}
+[Castellanos Potenciano B. P., Gallardo López F., Sol Sánchez A., Landeros Sánchez C., Díaz Padilla G., Sierra Figueredo P., Santibañez Galarza J. L.  *Impacto Potencial del Cambio Climático en la Apicultura.* Revista Iberoamericana de Bioeconomia y Cambio Climático, Vol. 2, Núm. 1,  p. 1-19, 2016.](pdfs/2016_ 2.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -569,25 +571,25 @@ Debido a la ausencia de estudios sobre el mantenimiento de las colmenas es neces
 
 La siguiente es una lista de los documentos disponibles sobre las especies vegetales que se pueden encontrar en cada entidad federativa.
 
-[**Flora Apícola del Estado de Aguascalientes.**](https://www.uaa.mx/direcciones/dgdv/editorial/catalogo/cca_floraapicola_9786078227938.html){target="_blank"}
+[Universidad Autónoma de Aguascalientes. **Flora Apícola del Estado de Aguascalientes.** 2012.](https://www.uaa.mx/direcciones/dgdv/editorial/catalogo/cca_floraapicola_9786078227938.html){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Chiapas.**](pdfs/FloraNectarifera y polinifera Chiapas.pdf){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Chiapas.** 2000.](pdfs/FloraNectarifera y polinifera Chiapas.pdf){target="_blank"}
 
-[**Flora Nectarífera y Polinífera de Guanajuato.**](https://drive.google.com/open?id=1GEjBOTh1HyXpt2IiYcmzu0n663DqG5xz){target="_blank"}
+[INIFAP. **Flora Nectarífera y Polinífera de Guanajuato.** 2016.](pdfs/Flora Nectarífera y polinifera en Guanajuato.pdf){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Guerrero.**](pdfs/Flora Nectarífera y polinifera en Guerrero.pdf){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Guerrero.** 2002.](pdfs/Flora Nectarífera y polinifera en Guerrero.pdf){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Hidalgo.**](https://drive.google.com/open?id=1two-4KxlzEBlmii9fuz_8kTmiy4cgckD){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Hidalgo.** 2012.](https://drive.google.com/open?id=1two-4KxlzEBlmii9fuz_8kTmiy4cgckD){target="_blank"} 
 
-[**Flora Nectarífera y Polinífera en el Estado de Michoacán.**](pdfs/FloraNectarifera y polinifera Michoacan.pdf){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Michoacán.** 1999.](pdfs/FloraNectarifera y polinifera Michoacan.pdf){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Tabasco.**](https://drive.google.com/open?id=1ztuiUm1BGpq4xg451btfl4Kq-E1grdxy){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Tabasco.** 2004.](https://drive.google.com/open?id=1ztuiUm1BGpq4xg451btfl4Kq-E1grdxy){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Tamaulipas.**](pdfs/Flora Nectarífera y polinifera Tamaulipas.pdf){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Tamaulipas.** 2003.](pdfs/Flora Nectarífera y polinifera Tamaulipas.pdf){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en el Estado de Veracruz.**](https://drive.google.com/open?id=1wbZCgujzgn0rF9v-J-HtkRb9N4c1hMIW){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en el Estado de Veracruz.** 2000.](https://drive.google.com/open?id=1wbZCgujzgn0rF9v-J-HtkRb9N4c1hMIW){target="_blank"}
 
-[**Flora Nectarífera y Polinífera en la Península de Yucatán.**](https://drive.google.com/open?id=1Lgo-deiR-qunIR0t5S9VtWKTOolEjVx2){target="_blank"}
+[SADER. **Flora Nectarífera y Polinífera en la Península de Yucatán.** 1998.](https://drive.google.com/open?id=1Lgo-deiR-qunIR0t5S9VtWKTOolEjVx2){target="_blank"}
 
 <br/>
 <br/>
@@ -615,7 +617,7 @@ Debido a los diferentes climas y floraciones que existen en México, se registra
 
 ***Fuente***
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34.](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, p. 3-34, marzo, 2010.](pdfs/ca199-3.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -637,7 +639,7 @@ En 2008, la producción de miel orgánica alcanzó las 701 toneladas, destacando
 
 ***Fuente***
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34.](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, p. 3-34, marzo, 2010.](pdfs/ca199-3.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -654,7 +656,7 @@ La producción de miel está supeditada a las condiciones del medio ambiente y a
 
 ***Fuente***
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34.](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, p. 3-34, marzo, 2010.](pdfs/ca199-3.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -690,7 +692,7 @@ DT::datatable(tab0010[,-2],filter = 'top', options = list(
 
 ***Fuente:***
 
-[Servicio de Información Agroalimentaria y Pesquera. *Avance mensual de la producción pecuaria*](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp){target="_blank"}
+[Servicio de Información Agroalimentaria y Pesquera (SIAP). *Avance mensual de la producción pecuaria.* 2018.](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp){target="_blank"}
 
 <br/>
 <br/>
@@ -775,7 +777,7 @@ El objetivo del proyecto es evaluar los impactos del cambio climático y cambio 
 
 #### **Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP), perteneciente a la Secretaría de Agricultura y Desarrollo Rural (SADER).**
 
-En seguimiento al plan estratégico de impulso a la apicultura nacional, la SADER (antes SAGARPA) realiza diversas acciones orientadas a fortalecer la apicultura.
+En seguimiento al plan estratégico de impulso a la apicultura nacional, la SADER realiza diversas acciones orientadas a fortalecer la apicultura.
 
 En esta dinámica, el [INIFAP](https://www.gob.mx/inifap){target="_blank"} realiza trabajos de investigación en apicultura, apoyando los procesos de transferencia de conocimiento y tecnología, acorde a las necesidades de los productores de México.
 
@@ -810,8 +812,11 @@ En el ámbito apícola, realiza investigaciones sobre el impacto de los plaguici
 <br/>
 
 #### **Laboratorio de Análisis de Propóleos en la FES Cuautitlán.**
-Laboratorio de Microbiología de la Unidad de Investigación Multidisciplinaria (UIM) de la FES (Facultad de Estudios Superiores) Cuautitlán se ubica el Laboratorio de Análisis de Propóleos, como reacción a una propuesta de Norma Oficial Mexicana (NOM) próxima a publicarse en el _Diario Oficial de la Federación_, para analizar mieles y propóleos.
-Éste ofrece el servicio de evaluación del propóleo mediante pruebas que garantizan al apicultor la calidad de su producto: la valoración física a partir del análisis del color, olor, sabor y consistencia de temperatura ambiente (parámetros que no pueden estandarizarse pues el propóleo es recolectado de la vegetación que hay alrededor de las colmenas) y el análisis químico, estudiando la presencia de fenoles y flavonoides, compuestos que recibe de la actividad biológica.
+Laboratorio de Microbiología de la Unidad de Investigación Multidisciplinaria (UIM) de la FES (Facultad de Estudios Superiores) Cuautitlán se ubica el Laboratorio de Análisis de Propóleos, cuyo objetivo es principalmente el análisis de mieles y propóleos.
+
+Este grupo impuslsó la creación de la [**Norma Oficial Mexicana NOM-003-SAG/GAN-2017, Propóleos, producción y especificaciones para su procesamiento.**](http://www.dof.gob.mx/normasOficiales/6794/sagarpa11_C/sagarpa11_C.html){target="_blank"} Norma de observancia obligatoria en todo el territorio nacional y  que tiene por objeto establecer las especificaciones de producción, características físicas, químicas y microbiológicas, que deben cumplir los propóleos y sus extractos para su procesamiento y comercialización en el país.
+
+Este laboratorio ofrece el servicio de evaluación del propóleo mediante pruebas que garantizan al apicultor la calidad de su producto: la valoración física a partir del análisis del color, olor, sabor y consistencia de temperatura ambiente (parámetros que no pueden estandarizarse pues el propóleo es recolectado de la vegetación que hay alrededor de las colmenas) y el análisis químico, estudiando la presencia de fenoles y flavonoides, compuestos que recibe de la actividad biológica.
 
 Otro parámetro examinado es la actividad antimicrobiana frente a microorganismos como _Staphylococcus aureus_, principal responsable de enfermedades respiratorias; _Escherichia coli_, causante de padecimientos gastrointestinales, y _Candida albicans_, uno de los hongos que más afecta a la salud humana.
 
@@ -823,7 +828,7 @@ El laboratorio, finalmente, impacta en los ámbitos social, económico y de la s
 
 ***Fuente:***
 
-[Gaceta Digital UNAM (Primer laboratorio de análisis de propóleos en la FES Cuautitlán](http://www.gaceta.unam.mx/20170316/primer-laboratorio-de-analisis-de-propoleos-en-la-fes-cuautitlan/){target="_blank"}
+[Gaceta Digital, UNAM. *Primer laboratorio de análisis de propóleos en la FES Cuautitlán.* Marzo, 2017.](http://www.gaceta.unam.mx/20170316/primer-laboratorio-de-analisis-de-propoleos-en-la-fes-cuautitlan/){target="_blank"}
 
 <br/>
 <br/>
@@ -844,7 +849,7 @@ knitr::include_graphics("imag/IMG_6800.png")
 
 Una de las principales estrategias para evitar altos niveles de africanización en los apiarios (reemplazo de genes europeos por africanos en las abejas), es la sustitución de abejas reina en las colmenas, empleando reinas de ecotipos europeos, fecundadas con zánganos europeos o africanizados, o bien reinas africanizadas producidas bajo un programa de selección y mejoramiento genético, orientado a fijar características deseables (mayor actividad, menor defensividad y menor susceptibilidad a las enfermedades). 
 
-Con el propósito de inducir la producción de estas abejas la SADER (antes SAGARPA), a través del PNPCAA, supervisa los criaderos de abejas reina y de núcleos de abejas para la emisión de la certificación genética y sanitaria de sus criaderos; con ello se vigila que la las abejas se produzcan y comercialicen en estricto apego a la normativa oficial.
+Con el propósito de inducir la producción de estas abejas la SADER, a través del PNPCAA, supervisa los criaderos de abejas reina y de núcleos de abejas para la emisión de la certificación genética y sanitaria de sus criaderos; con ello se vigila que la las abejas se produzcan y comercialicen en estricto apego a la normativa oficial.
 
 <br/>
 
@@ -858,6 +863,7 @@ Con el propósito de inducir la producción de estas abejas la SADER (antes SAGA
 
 #### **A continuación, se enlistan los criaderos de abejas certificados en 2017 y 2018.**
 
+<br/>
 <br/>
 
 <p align="center"> **Cuadro 9. Criaderos de Abejas Reina F1 certificados durante 2017-2018 (Certificación genética y sanitaria).** [`r icon::fa("download")`](tabs/t001.csv) </p>
@@ -880,8 +886,9 @@ DT::datatable(tab0001,filter = 'top', options = list(
 
 <br/>
 <br/>
+<br/>
 
-<p align="center"> ** Cuadro 10. Criaderos de Abejas Reina Progenitora certificados durante 2017-2018 (Certificación Genética y Sanitaria).** [`r icon::fa("download")`](tabs/t0002.csv) </p>
+<p align="center"> **Cuadro 10. Criaderos de Abejas Reina Progenitora certificados durante 2017-2018 (Certificación Genética y Sanitaria).** [`r icon::fa("download")`](tabs/t0002.csv) </p>
 
 <br/>
 
@@ -897,6 +904,7 @@ kableExtra::kable(tab0002) %>%
 
 ```  
 
+<br/>
 <br/>
 <br/>
 
@@ -922,7 +930,7 @@ DT::datatable(tab0003,filter = 'top', options = list(
 
 ***Fuente:***
 
-Secretaría de Agricultura y Desarrollo Rural (SADER)
+[SADER. *Datos abiertos*. 2018.](https://datos.gob.mx/busca/dataset/criaderos-de-abejas-reina-y-nucleos-de-abejas-certificados-de-sagarpa-creado-el-2016-01-2-18-19){target="_blank"}
 
 <br/>
 <br/>
@@ -965,7 +973,7 @@ Los canales de comercialización de la miel son dos: el primero se da por la ven
 
 ***Fuente:***
 
-[Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, marzo 2010, p. 3-34.](pdfs/ca199-3.pdf){target="_blank"}
+[SADER. Revista Claridades Agropecuarias. *Situación actual y perspectiva de la apicultura en México.*, Núm. 199, p. 3-34, marzo, 2010.](pdfs/ca199-3.pdf){target="_blank"}
 
 <br/>
 
@@ -983,7 +991,7 @@ Este  Plan  Rector,  contiene  apartados  que  incluyen  temas  relevantes  para
 
 ***Fuente:***
 
-[CONABIO. AECID. *Plan Rector para Promover una Denominación de Origen de mieles de la Península de Yucatán. Propuesta.*](pdfs/PlanRector_DenominaOrigenMielesPeninsulaYucatan.pdf){target="_blank"}
+[CONABIO. AECID. *Plan Rector para Promover una Denominación de Origen de mieles de la Península de Yucatán. Propuesta.* 2011.](pdfs/PlanRector_DenominaOrigenMielesPeninsulaYucatan.pdf){target="_blank"}
 
 <br/>
 <br/>
@@ -1005,11 +1013,6 @@ Del 1 al 4 de febrero de 2019, en la ciudad de Aguascalientes se llevó a cabo e
 
 Por último, del 22 al 24 de mayo de 2019 en las instalaciones de la Expo Chihuahua en dicha ciudad, se desarrolló el ***XXVI Congreso Internacional de Actualización Apícola***, evento en el que se dieron cita investigadores de México y otras partes del mundo, para compartir experiencias y conocimientos sobre la ciencia detrás de la apicultura, desde temas de genética y manejo de enfermedades, hasta aspectos para mejorar la administración y economía de los apiarios.
 
-***Fuentes:***
-
-[Sitio Web del 5º Congreso Mexicano de Apicultura](https://allevents.in/aguascalientes/5-congreso-mexicano-de-apicultura-y-4-encuentro-apicola-del-altiplano/190055368218966){target="_blank"}
-
-[Sitio Web del 5º Encuentro Apícola del Altiplano Aguascalientes 2019](https://www.facebook.com/Encuentro.Apicola.Ags/){target="_blank"}
 
 
 

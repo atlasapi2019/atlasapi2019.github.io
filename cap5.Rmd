@@ -17,8 +17,11 @@ knitr::include_graphics("imag/5_Otros.png")
 
 <br/>
 
-## 5.1. Producción de Miel e Infraestructura por Entidad  
+## 5.1. Producción de Miel y Apicultores en México (Sector Primario)
 ****
+
+
+### 5.1.1 Producción de miel por Entidad Federativa
 
 **En el siguiente mapa se muestra la producción en toneladas de miel de 2018, por entidad federativa.** 
 
@@ -41,12 +44,13 @@ prodmiel2018 <- read.csv("tabs/prodmiel2018.csv", head= T)
 prod_miel$total2018 <- prodmiel2018[,3]
 map_prod_miel <- leaflet(data=prod_miel)
 clust <- kmeans(prod_miel$total2018,5)
-breaks <- sort(c(0, max((prod_miel$total2018)[clust$cluster == 1]),
-                 max((prod_miel$total2018)[clust$cluster == 2]),
-                 max((prod_miel$total2018)[clust$cluster == 3]),
-                 max((prod_miel$total2018)[clust$cluster == 4]),
-                 max((prod_miel$total2018)[clust$cluster == 5])))
-breaks2 <- c((round(breaks[-6],1)),(ceiling(breaks[6])))
+#breaks <- sort(c(0, max((prod_miel$total2018)[clust$cluster == 1]),
+#                 max((prod_miel$total2018)[clust$cluster == 2]),
+#                 max((prod_miel$total2018)[clust$cluster == 3]),
+#                 max((prod_miel$total2018)[clust$cluster == 4]),
+#                max((prod_miel$total2018)[clust$cluster == 5])))
+#breaks2 <- c((round(breaks[-6],1)),(ceiling(breaks[6])))
+breaks2 <- c(1,600,1400,3200,6000,9800)
 binpal <- colorBin("Oranges", prod_miel$total2018, breaks2)
 
 map_prod_miel %>%
@@ -73,13 +77,15 @@ map_prod_miel %>%
 
 ***Fuente:***
 
-[SADER. Servicio de Información Agroalimentaria y Pesquera (SIAP). Avance mensual de la producción pecuaria.](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp){target="_blank"} [`r icon::fa("download")`](tabs/prodmiel2018.csv)
+[SADER. Servicio de Información Agroalimentaria y Pesquera (SIAP). *Avance mensual de la producción pecuaria.* 2018.](http://infosiap.siap.gob.mx/repoAvance_siap_gb/pecAvanceProd.jsp){target="_blank"} [`r icon::fa("download")`](tabs/prodmiel2018_2.csv)
 
 <br/>
 <br/>
 <br/>
 
-Si se analiza el dato de colmenas por entidad federativa, se nota de inmediato el predominio de los estados de la península de Yucatán y el sureste del país. Los datos disponibles son de 2017.
+### 5.1.2 Número de Colmenas 
+
+Si se analiza el dato de colmenas por entidad federativa, se nota el predominio de los estados de la península de Yucatán y el sureste del país. Los datos disponibles son de 2017.
 
 ```{r map_colm, echo = FALSE, message = FALSE, fig.height=6, warning = FALSE, out.width = "100%", cache=TRUE}
 
@@ -130,11 +136,13 @@ map_colm %>%
 
 ***Fuente:***
 
-[SADER. Datos abiertos](https://datos.gob.mx/busca/dataset/produccion-de-miel-2017){target="_blank"}
+[SADER. *Datos abiertos*. 2018.](https://datos.gob.mx/busca/dataset/produccion-de-miel-2017){target="_blank"}
 
 <br/>
 <br/>
 <br/>
+
+### 5.1.3 Apicultores
 
 Según datos del *Sistema de Información Agroalimentaria de Consulta (SIACON)* de la Secretaría de Agricultura y Desarrollo Rural (SADER), en el país se registró en 2017 un total de 43,478 apicultores, distribuidos en todos los estados según el siguiente mapa.
 
@@ -185,13 +193,16 @@ map_apicult %>%
 
 <p align="center"> **Mapa 3. Número de Apicultores por Entidad Federativa, 2017.** [`r icon::fa("download")`](tabs/estadisticas.csv) </p>
 
+***Fuente:***
+
+[SIAP. *Registros Administrativos*. 2014.](https://datos.gob.mx/busca/dataset/produccion-de-miel-2017){target="_blank"}
 <br/>
 <br/>
 <br/>
 <br/>
 
 
-## 5.2. Unidades Económicas Apícolas y de Venta de Miel en México  
+## 5.2. Unidades Económicas de Venta de Miel, Fabricación de Insumos y Otros Servicios Relacionados con la Apicultura en México (Sectores Secundario y Terciario)
 ****
 
 **El siguiente mapa es un primer acercamiento hacia la construcción de un Directorio Nacional de Apicultores y Comercializadores de Miel y sus Derivados.** Contiene información georreferenciada de las unidades económicas que comercializan miel o realizan alguna actividad relacionada con la apicultura, y que se encuentran registradas en el *Directorio Estadístico Nacional de Unidades Económicas (DENUE)* del INEGI.
@@ -216,7 +227,7 @@ proApic <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.sh
                       "INEGI_DENUE_21012019", verbose=FALSE)
 salen1 <- c(3913258,2218442,3096733,3640449,4083614,4184935,4449017,4486570)
 proApicola <- subset(proApic, !(is.element(proApic@data$id, salen1)))
-x0 <- rep("Actividades Apícolas", dim(proApicola@data)[1])
+x0 <- rep("Servicios Relacionados con Actividades Apícolas", dim(proApicola@data)[1])
 proApicola@data <- cbind(proApicola@data, x0)
 
 
@@ -233,7 +244,7 @@ ueMiel@data$x0 <- rep("Venta de Miel", dim(ueMiel@data)[1])
 
 otrApic <- readOGR("geodata/INEGI_DENUE_01082019_OTRAPIC/INEGI_DENUE_01082019.shp",
                    "INEGI_DENUE_01082019", verbose=FALSE)
-otrApic@data$x0 <- rep("Actividades Apícolas", dim(otrApic@data)[1])
+otrApic@data$x0 <- rep("Servicios Relacionados con Actividades Apícolas", dim(otrApic@data)[1])
 
 ueMielApic <- raster::bind(ueMiel, proApicola)
 ueMielApic <- raster::bind(ueMielApic, otrApic)
@@ -286,11 +297,16 @@ l %>%
 
 ```
 
-<p align="center"> **Mapa 4. Unidades Económicas Apícolas y de Venta de Miel en México, DENUE 2018.** [`r icon::fa("download")`](geodata/puntos_miel.zip) </p>
+<p align="center"> **Mapa 4. Unidades Económicas de Venta de Miel, Fabricación de Insumos y Otros Servicios Relacionados con la Apicultura en México, DENUE 2018.** [`r icon::fa("download")`](geodata/puntos_miel.zip) </p>
 
 <br/>
 <br/>
 <br/>
+
+
+
+
+
 
 
 

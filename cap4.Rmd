@@ -66,7 +66,7 @@ dygraph(p_anual_colmenas, xlab ="Año") %>%
 
 ***Fuente:***
 
-[FAOSTAT. Datos sobre animales vivos.](http://www.fao.org/faostat/en/#data/QA){target="_blank"}
+[FAOSTAT. *Datos sobre animales vivos.* 2017.](http://www.fao.org/faostat/en/#data/QA){target="_blank"}
 
 <br/>
 <br/>
@@ -145,7 +145,7 @@ p1
 <br/>
 <br/>
 
-## 4.3. Estadísticas por Entidad Federativa.
+## 4.3. Otras Estadísticas por Entidad Federativa.
 ****
 
 
@@ -184,6 +184,7 @@ p2
 
 <br/>
 <br/>
+<br/>
 
 En lo referente a actividades específicas de la cadena productiva apícola, se encuentran datos sobre acopiadores de miel por entidad.
 
@@ -215,6 +216,7 @@ grafica1
 ```
 <p align="center"> *Fuente: Sistema de Información Agroalimentaria de Consulta (SIACON), 2017.* [`r icon::fa("download")`](tabs/estadisticas.csv) </p>
 
+<br/>
 <br/>
 <br/>
 
@@ -250,6 +252,7 @@ grafica2
 
 <br/>
 <br/>
+<br/>
 
 Con respecto a la crianza de abejas reina y producción de núcleos, también existen pocas unidades económicas dedicadas a estas actividades.
 <br/>
@@ -282,6 +285,7 @@ p3
 ```
 <p align="center"> *Fuente: Sistema de Información Agroalimentaria de Consulta (SIACON), 2017.* [`r icon::fa("download")`](tabs/estadisticas.csv) </p>
 
+<br/>
 <br/>
 <br/>
 
@@ -319,6 +323,7 @@ p4
 
 <br/>
 <br/>
+<br/>
 
 Además de la miel, se producen otros derivados apícolas. El principal subproducto en cuanto a volumen, es la cera. Sus principales usos son en las industrias farmacéutica y cosmética. Yucatán se destaca como el principal productor de cera de abeja a nivel nacional.
 
@@ -330,7 +335,7 @@ library(plotly)
 
 estadisticas_t1 <- read.csv("tabs/estadisticas.csv", encoding="UTF")
 peso <- estadisticas_t1[estadisticas_t1[,14]>0,c(1,14)]
-orden_peso<-order(peso$CERA_kg, decreasing = T)
+orden_peso<-order(peso$cera_ton_2018, decreasing = T)
 estadisticas_t1_2<-peso[orden_peso,]
 xestados_t<-(estadisticas_t1_2)[,1]
 ypeso_cera_t<-(estadisticas_t1_2)[,2]
@@ -339,17 +344,18 @@ datos3$xestados_t <- factor(datos3$xestados_t, levels = datos3[["xestados_t"]])
 
 grafica3 <- plot_ly(datos3, x = ~xestados_t, y = ~ypeso_cera_t, type = 'bar',
                    marker = list(color = 'deepskyblue2')) %>%
-  layout(title = ("Gráfica 8. Producción de Cera por Entidad Federativa, 2017 (kg)"),
+  layout(title = ("Gráfica 8. Producción de Cera por Entidad Federativa, 2017 (ton)"),
          xaxis = list(title = "", tickangle = -45),  
          size = 16,
-         yaxis = list(title = "kg"),
+         yaxis = list(title = "ton"),
          margin = list(b = 100),
          barmode = 'group')
 grafica3
 
 ```
-<p align="center"> *Fuente: Sistema de Información Agroalimentaria de Consulta (SIACON), 2017.* [`r icon::fa("download")`](tabs/estadisticas.csv) </p>
+<p align="center"> *Fuente: Sistema de Información Agroalimentaria de Consulta (SIACON), 2018.* [`r icon::fa("download")`](tabs/prodcera2018.csv) </p>
 
+<br/>
 <br/>
 <br/>
 
@@ -382,6 +388,7 @@ p5
 
 <br/>
 <br/>
+<br/>
 
 Los subproductos mencionados son los propóleos, la jalea real, y el polen. El precio de estos suele ser mucho mayor que el de la miel, dada la dificultad de su obtención. Por ello, se trata de un mercado en el que muchos apicultores aún no incursionan.
 
@@ -402,7 +409,7 @@ p6 <- plot_ly(derivados2, x = ~derivados2[,5], y = ~derivados2[,2], type = 'bar'
             marker = list(color = 'green')) %>% 
   add_trace(y = ~derivados2[,4], name = 'Propóleos', 
             marker = list(color = 'red')) %>% 
-  layout(title = ("Gráfica 10. Producción de Derivados Apícolas por Entidad Federativa, 2017 (kg)"),
+  layout(title = ("Gráfica 10. Producción de Derivados Apícolas por Entidad Federativa, 2017"),
          xaxis = list(title = "", tickangle =-45),
          yaxis = list(title = "kg"),
          margin = list(b = 100),
@@ -414,11 +421,12 @@ p6
 
 <br/>
 <br/>
+<br/>
 
 En lo referente a la superficie y número de terrenos dedicados a las actividades apícolas, existe una difereciación entre terrenos de tipo ejidal, comunal y privado. Más del 85% de los terrenos apícolas corresponden al tipo de ganadería ejidal. 
 
 <br/>
-```{r graf_b8, fig.align='center', fig.height= 9, fig.width= 12, echo=FALSE, out.width = "100%", cache=TRUE, warning=FALSE}
+```{r graf_b8, fig.align='center', fig.height= 6, fig.width= 12, echo=FALSE, out.width = "100%", cache=TRUE, warning=FALSE}
 
 terr <- read.csv("tabs/superficie_apicola.csv")
 terr1 <- subset(terr, terr[,2]>0 | terr[,4]>0 | terr[,6]>0 )
@@ -445,11 +453,12 @@ p7
 
 <br/>
 <br/>
+<br/>
 
 Que expresados en hectáreas se distribuyen según la siguiente gráfica. Predomina la superficie ejidal dedicada a la apicultura en los estados de Yucatán, Campeche y Quintana Roo. 
 
 <br/>
-```{r graf_b9, fig.align='center', fig.height= 9, fig.width= 12, echo=FALSE, out.width = "100%", cache=TRUE, warning=FALSE}
+```{r graf_b9, fig.align='center', fig.height= 6, fig.width= 12, echo=FALSE, out.width = "100%", cache=TRUE, warning=FALSE}
 
 hect <- read.csv("tabs/superficie_apicola.csv")
 hect1 <- subset(hect, hect[,3]>0 | hect[,5]>0 | hect[,7]>0 )
@@ -464,7 +473,7 @@ p8 <- plot_ly(hect2, x = ~hect2[,5], y = ~hect2[,2], type = 'bar',
             marker = list(color = 'green')) %>% 
   add_trace(y = ~hect2[,4], name = 'Terrenos Privados', 
             marker = list(color = 'red')) %>% 
-  layout(title = ('Gráfica 12. Superficie Dedicada a Actividades Apícolas, por Entidad Federativa, 2017 (hectáreas)'),
+  layout(title = ('Gráfica 12. Superficie Dedicada a Actividades Apícolas, por Entidad Federativa, 2017'),
          xaxis = list(title = "", tickangle =-45),
          yaxis = list(title = "Hectáreas"),
          margin = list(b = 100),
@@ -483,7 +492,7 @@ p8
 ****
 
 La exportación de miel mexicana se incrementó en 11.73% en el primer semestre de 2018 en comparación con el periodo homólogo anterior al alcanzar, en valor, 71 millones de dólares (MDD), mientras que en enero-junio del año pasado se contabilizaron 63 MDD.  
-Lo anterior, gracias a las políticas públicas, destinadas a incentivar esta actividad, que puso en práctica la SADER (antes SAGARPA), así como al esfuerzo de los productores apícolas nacionales.  
+Lo anterior, gracias a las políticas públicas, destinadas a incentivar esta actividad, que puso en práctica la SADER, así como al esfuerzo de los productores apícolas nacionales.  
 
 Según estimaciones de la dependencia, con datos del Banco de México, la miel es uno de los principales productos pecuarios de nuestro país que se venden en el extranjero y durante el 2017 se consiguieron ventas por 105 MDD.  
 
@@ -507,11 +516,13 @@ Es por ello, que el SENASICA, la Secretaría de Medio Ambiente y Recursos Natura
 
 ***Fuente:***
 
-[*Se incrementa en el primer semestre del año la exportación de miel mexicana en más de 11 por ciento.*  Agosto, 2018.](https://www.gob.mx/sader/prensa/se-incrementa-en-el-primer-semestre-del-ano-la-exportacion-de-miel-mexicana-en-mas-de-11-por-ciento?idiom=es){target="_blank"}
+[SADER. *Nota de Prensa.* Agosto, 2018.](https://www.gob.mx/sader/prensa/se-incrementa-en-el-primer-semestre-del-ano-la-exportacion-de-miel-mexicana-en-mas-de-11-por-ciento?idiom=es){target="_blank"}
 
 <br/>
+<br/>
+<br/>
 
-**A continuación, se presentan algunos datos sobre el valor de las exportaciones de miel mexicana en los últimos años:**
+A continuación, se presentan algunos datos sobre el valor de las exportaciones de miel mexicana en los últimos años:
 
 <br/>
 
@@ -534,6 +545,7 @@ DT::datatable(tab3_16,filter = 'top', options = list(
 <p align="center"> **Cuadro 13. Exportaciones Mensuales de Miel, 1993-2018** [`r icon::fa("download")`](tabs/3_16_1_exportamiel.csv) </p>
 
 <br/>
+<br/>
 
 Por otra parte, si se analiza el comportamiento de las exportaciones mensuales de miel en México mediante un gráfico historico o serie de tiempo, puede observarse la tendencia cíclica del volumen de ventas en dólares, mostrando picos entre los meses de abril-julio de cada año, y marcados descensos en las exportaciones en los meses de agosto-noviembre, que refleja las épocas de mayor floración y el periodo inmediato a la mayor produción y extracción de miel (en el que las colmenas apenas comienzan a recuperarse), respectivamente:
 
@@ -545,7 +557,7 @@ library(dygraphs)
 
 exmiel <- read.csv("tabs/3_16_1_exportamiel.csv", encoding = "UTF")
 exmildls <- exmiel$SE32403
-exmildlsxmes <- ts(exmildls, start= c(1993,1) , end= c(2018,11) , frequency=12)
+exmildlsxmes <- ts(exmildls, start= c(1993,1) , end= c(2018,12) , frequency=12)
 
 dygraphs::dygraph(exmildlsxmes) %>% 
 dygraphs::dySeries(c("V1"), label = "Miles de dolares") %>%
@@ -562,7 +574,84 @@ dygraphs::dyRangeSelector()
 
 ***Fuente:***
 
-[BANXICO. Sistema de Información Económica. *Exportación de Productos Agropecuarios (Miel).*](http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CE122&locale=es){target="_blank"}
+[BANXICO. Sistema de Información Económica. *Exportación de Productos Agropecuarios (Miel).* 2018.](http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CE122&locale=es){target="_blank"}
+
+<br/>
+<br/>
+
+Los principales destinos de las exportaciones pueden apreciarse en la siguiente gráfica:
+
+<br/>
+
+```{r graficaexport, echo = FALSE, message = FALSE, fig.height= 6, fig.width= 10, warning = FALSE, cache=F}
+
+library(plotly)
+
+dest <- read.csv("tabs/destinos.csv", encoding = "UTF")
+dest2 <- dest[1:6,-1]
+dest3 <- as.data.frame(t(dest2))
+paises <- c("ALEM","USA","UK","ARAB_SAUD","SUIZA","BELG")
+names(dest3) <- paises
+dest3$years <- c("2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018")
+dest3$years <- factor(dest3$years, levels = dest3[["years"]])
+
+pexp <- plot_ly(dest3, x = ~years, y = ~ALEM, name = 'Alemania', type = 'scatter', mode = 'lines',
+              line = list(color = 'rgb(205, 12, 24)', width = 4)) %>%
+  add_trace(y = ~USA, name = 'Estados Unidos', line = list(color = 'darkblue', width = 4, dash = NULL)) %>%
+  add_trace(y = ~UK, name = 'Reino Unido', line = list(color = 'green', width = 4, dash = NULL)) %>%
+  add_trace(y = ~ARAB_SAUD, name = 'Arabia Saudita', line = list(color = 'cyan', width = 4, dash = NULL)) %>%
+  add_trace(y = ~SUIZA, name = 'Suiza', line = list(color = 'darkorchid', width = 4, dash = NULL)) %>%
+  add_trace(y = ~BELG, name = 'Bélgica', line = list(color = 'dodgerblue', width = 4, dash = NULL))  %>%
+  layout(title = "Gráfica 14. Valor de las exportaciones a los principales países de destino, 2002-2018",
+         xaxis = list(title = "Año"),
+         yaxis = list (title = "Miles de dólares"))
+pexp 
+
+```
+
+<br/>
+
+<p align="center"> **Descargar datos** [`r icon::fa("download")`](tabs/import_export.csv) </p>
+
+<br/>
+***Fuente:***
+
+[INEGI. *Estadísticas de Comercio Exterior*. 2018.](https://www.inegi.org.mx/datos/?t=0030000000000000){target="_blank"}
+
+<br/>
+<br/>
+
+En contraste, la importación de miel es mucho menor en comparación con las exportaciones. En los últimos 15 años, sólo en 2010 se registró un máximo en este rubro.
+
+<br/>
+
+```{r importaMiel , echo = FALSE, message = FALSE, warning = FALSE, fig.align='center',fig.height= 6, fig.width= 10,  out.width = "100%" }
+
+library(plotly)
+
+immiel <- read.csv("tabs/import_2004_2018.csv", encoding = "UTF")
+
+importac <- plot_ly(immiel, x = ~anio, y = ~dolares, type = 'scatter', 
+              mode = 'lines', line = list(color = 'darkblue', 
+                                          width = 4))  %>%
+  layout(title = "Gráfica 15. Importaciones Anuales de Miel, 2004-2018",
+         xaxis = list(title = "Año"),
+         yaxis = list (title = "Dólares"))
+importac
+
+
+```
+
+<br/>
+
+<p align="center"> **Descargar datos** [`r icon::fa("download")`](tabs/import_export.csv) </p>
+
+<br/>
+
+
+***Fuente:***
+
+[INEGI. *Estadísticas de Comercio Exterior*. 2018.](https://www.inegi.org.mx/datos/?t=0030000000000000){target="_blank"}
 
 <br/>
 
@@ -570,6 +659,7 @@ dygraphs::dyRangeSelector()
 
 
 
-
 </div>
+
+
 

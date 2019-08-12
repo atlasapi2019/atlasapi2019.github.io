@@ -33,6 +33,7 @@ apicult
 
 
 
+
 asoc <- read.csv("tabs/asoc_ent.csv", head=T)
 hchart(asoc, "bar", hcaes(x = asoc[,1], y = asoc[,2], group = asoc[,3])) %>% hc_add_theme(hc_theme_google()) %>% 
   hc_title(text = "Asociaciones Apícolas y Otras Organizaciones, por entidad federativa, 2017") %>% 
@@ -73,7 +74,7 @@ criad <- criad[!(criad[,7]== 0 & criad[,8] == 0 & criad[,9] == 0), c(1,7,9,8)]
 criad2 <- as.data.frame(rep(criad$Entidad,3))
 criad2$datos <- c(criad[,2], criad[,3], criad[,4])
 criad2$producto <- c(rep("Criadores de Abejas Reina",length(criad$Entidad)), rep("Criadores de Abejas Reina Progenitoras",length(criad$Entidad)), 
-                      rep("Productores de Núcleos o Paquetes de Abejas",length(criad$Entidad)))
+                     rep("Productores de Núcleos o Paquetes de Abejas",length(criad$Entidad)))
 
 hchart(criad2, "bar", hcaes(x = criad2[,1], y = criad2[,2], group = criad2[,3])) %>% hc_add_theme(hc_theme_google()) %>% 
   hc_title(text = "Criadores de abejas reina y Núcleos, por entidad federativa, 2017") %>% 
@@ -88,7 +89,7 @@ cert <- cert[!(cert[,10] == 0 & cert[,11] == 0 & cert[,12] == 0), c(1,10,11,12,1
 cert2 <- as.data.frame(rep(cert$Entidad,4))
 cert2$datos <- c(cert[,2], cert[,3], cert[,4], cert[,5])
 cert2$producto <- c(rep("Abejas Reina Producidas Certificadas",length(cert$Entidad)), rep("Abejas Reina Producidas No Certificadas",length(cert$Entidad)), 
-                     rep("Núcleos Producidos",length(cert$Entidad)), rep("Colmenas para polinización",length(cert$Entidad)))
+                    rep("Núcleos Producidos",length(cert$Entidad)), rep("Colmenas para polinización",length(cert$Entidad)))
 
 hchart(cert2, "column", hcaes(x = cert2[,1], y = cert2[,2], group = cert2[,3])) %>% hc_add_theme(hc_theme_gridlight()) %>% 
   hc_title(text = "Abejas reina, núcleos y colmenas para polinización producidas por entidad federativa, 2017") %>% 
@@ -118,7 +119,7 @@ otr_prod <- otr_prod[!(otr_prod[,13] == 0 & otr_prod[,15] == 0 & otr_prod[,16] =
 otr_prod2 <- as.data.frame(rep(otr_prod$Entidad,4))
 otr_prod2$datos <- c(otr_prod[,5], otr_prod[,2], otr_prod[,3],otr_prod[,4])
 otr_prod2$productos <- c(rep("Propóleos",length(otr_prod$Entidad)), rep("Miel Orgánica",length(otr_prod$Entidad)), 
-                    rep("Jalea Real",length(otr_prod$Entidad)), rep("Polen",length(otr_prod$Entidad)))
+                         rep("Jalea Real",length(otr_prod$Entidad)), rep("Polen",length(otr_prod$Entidad)))
 otr_prod2$num <- rep(1:length(otr_prod$Entidad),4)
 otr_prod2 <- otr_prod2[otr_prod2$datos > 0,]
 otr_prod2 <- otr_prod2[order(otr_prod2[,4]),]
@@ -134,7 +135,7 @@ terr <- read.csv("tabs/superficie_apicola.csv")
 terr2 <- as.data.frame(rep(terr$entidad,3))
 terr2$datos <- c(terr[,2], terr[,4], terr[,6])
 terr2$tipo <- c(rep("Terrenos de ganadería ejidal",length(terr$entidad)), 
-                     rep("Terrenos de ganadería comunal",length(terr$entidad)), rep("Terrenos de ganadería privada",length(terr$entidad)))
+                rep("Terrenos de ganadería comunal",length(terr$entidad)), rep("Terrenos de ganadería privada",length(terr$entidad)))
 terr2 <- terr2[terr2$datos > 0,]
 
 hchart(terr2, "scatter", hcaes(x = terr2[,1], y = terr2[,2], group = terr2[,3])) %>% hc_add_theme(hc_theme_gridlight()) %>% 
@@ -213,7 +214,7 @@ library(xts)
 
 
 proApic <- readOGR("geodata/INEGI_DENUE_21012019_APICOLA/INEGI_DENUE_21012019.shp",
-                      "INEGI_DENUE_21012019", verbose=FALSE)
+                   "INEGI_DENUE_21012019", verbose=FALSE)
 salen1 <- c(3913258,2218442,3096733,3640449,4083614,4184935,4449017,4486570)
 proApicola <- subset(proApic, !(is.element(proApic@data$id, salen1)))
 x0 <- rep("Actividades apícolas", dim(proApicola@data)[1])
@@ -393,7 +394,7 @@ map_prod_miel %>%
                    "<strong>PRODUCCIÓN: </strong>", prod_miel$total2018)
   ) #%>%
 #  addLegend(
- #   "bottomleft", pal = binpal, values = ~total2018,
+#   "bottomleft", pal = binpal, values = ~total2018,
 #    title = "Producción de Miel <br/> (Toneladas)",
 #    opacity = 0.7
 #  )
@@ -401,5 +402,68 @@ map_prod_miel %>%
 
 
 
+
+exportaciones <- read.csv("tabs/exportaciones.csv", head= T)
+hist(as.numeric(paste(exportaciones$dolares)))
+
+exp1 <- subset(exportaciones, exportaciones$pais_de_origen_destino=="Japón")
+exp2 <- as.vector(tapply(exp1$dolares,exp1$anio,sum))
+write.csv(exp2,"exp2.csv")
+
+
+
+
+
+#```{r graficaexport, echo = FALSE, message = FALSE, fig.height= 8, fig.width= 10, warning = FALSE, cache=F}
+
+library(plotly)
+
+dest <- read.csv("tabs/destinos.csv", encoding = "UTF")
+dest2 <- dest[1:6,-1]
+dest3 <- as.data.frame(t(dest2))
+paises <- c("ALEM","USA","UK","ARAB_SAUD","SUIZA","BELG")
+names(dest3) <- paises
+dest3$years <- c("2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018")
+dest3$years <- factor(dest3$years, levels = dest3[["years"]])
+
+pexp <- plot_ly(dest3, x = ~years, y = ~ALEM, name = 'Alemania', type = 'scatter', mode = 'lines',
+                line = list(color = 'rgb(205, 12, 24)', width = 4)) %>%
+  add_trace(y = ~USA, name = 'Estados Unidos', line = list(color = 'darkblue', width = 4, dash = NULL)) %>%
+  add_trace(y = ~UK, name = 'Reino Unido', line = list(color = 'green', width = 4, dash = NULL)) %>%
+  add_trace(y = ~ARAB_SAUD, name = 'Arabia Saudita', line = list(color = 'cyan', width = 4, dash = NULL)) %>%
+  add_trace(y = ~SUIZA, name = 'Suiza', line = list(color = 'darkorchid', width = 4, dash = NULL)) %>%
+  add_trace(y = ~BELG, name = 'Bélgica', line = list(color = 'dodgerblue', width = 4, dash = NULL))  %>%
+  layout(title = "Gráfica 14. Valor de las exportaciones a los principales países de destino, 2002-2018",
+         xaxis = list(title = "Año"),
+         yaxis = list (title = "Miles de dólares"))
+pexp 
+
+
+
+
+library(DiagrammeR)
+
+DiagrammeR::mermaid("
+                    graph TB
+                    A(  Cepa madre con <br/> 10 cuadros +  REINA  ) --> B[ Cepa madre con 5 cuadros + REINA <br/> a 20 metros de sitio original  ]
+                    A-->C(  Colonia Nueva con 5 cuadros S/REINA <br/> al sitio de la madre   )
+                    C-->A
+                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    ")
+
+
+DiagrammeR::mermaid("
+                    graph LR
+                    A(  Colmena madre  ) --> B( Colmena con 8 cuadros </br> S/R al sitio de la madre. </br> Después de 8 días, éstas se dividen )
+                    A --> C(  Colmena con 2 cuadros + </br> R a 10 metros del sitio original )
+                    B --> D(  4 Colmenas con 2 cuadros </br> + Realeras )
+                    
+                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:cyan,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    style D fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    ")
 
 
