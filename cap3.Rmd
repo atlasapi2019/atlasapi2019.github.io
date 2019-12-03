@@ -7,7 +7,7 @@ title: "La Miel en México y el Mundo"
 
 ```{r i_3x, fig.align='center', echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/3_La_Miel.png")
+knitr::include_graphics("imag/3_La_Miel.gif")
 
 ```
 
@@ -18,21 +18,21 @@ knitr::include_graphics("imag/3_La_Miel.png")
 
 Por [Laura G. Espinosa Montaño](#a001) 
 
-Describir los eventos históricos que caracterizaron el desarrollo de la apicultura en México merece iniciar considerando que desde épocas prehispánicas se desarrolló una actividad muy importante en la región mesoamericana por parte de pobladores mayas, quienes cultivaron diversas variedades de abejas nativas de los géneros Trigona y Melipona, conocidas genéricamente como meliponinos, y dentro de los cuales destacó la especie Melipona beecheii Bennett (en maya llamada  Xuna'an Kab, Kolel'Kab o Po'ol Kab, la cual, al igual que otros meliponinos, presenta como característica física primordial el carecer de aguijón, situación que les diferencia de las abejas Apis mellifera L. oriundas del viejo mundo. 
+Describir los eventos históricos que caracterizaron el desarrollo de la apicultura en México merece iniciar considerando que desde épocas prehispánicas se desarrolló una actividad muy importante en la región mesoamericana por parte de pobladores mayas, quienes cultivaron diversas variedades de abejas nativas de los géneros *Trigona* y *Melipona*, conocidas genéricamente como meliponinos, y dentro de los cuales destacó la especie Melipona beecheii Bennett (en maya llamada  *Xuna'an Kab*, *Kolel'Kab* o *Po'ol Kab*, la cual, al igual que otros meliponinos, presenta como característica física primordial el carecer de aguijón, situación que les diferencia de las abejas *Apis mellifera* oriundas del viejo mundo. 
 
-Es pues así que la actividad que se desarrolló con los meliponinos (meliponicultura), a decir de los conquistadores españoles, presentaba gran semejanza con la apicultura que se realizaba con gran auge en la España de los siglos XVI al XVIII con abejas de la especie A. mellifera. Ya Fernández de Oviedo en su obra “Historia General y Natural de las Indias”, describe las actividades y cuidados que los mayas daban a sus abejas, las cuales criaban en colmenas rústicas conocidas como hobones (troncos huecos gruesos, con aberturas de los extremos cubiertas con discos de madera sellados con lodo) los cuales se colocaban sobre delgados troncos inclinados y protegidos dentro de chozas cubiertas de palmas de guano.  Estas características, aunadas a los manejos que se les daba a estas abejas, dieron lugar a considerar que esta actividad estaba más extendida que la apicultura en cualquier otra parte de Europa.  
+Es pues así que la actividad que se desarrolló con los meliponinos (meliponicultura), a decir de los conquistadores españoles, presentaba gran semejanza con la apicultura que se realizaba con gran auge en la España de los siglos XVI al XVIII con abejas de la especie *A. mellifera*. Ya Fernández de Oviedo en su obra “Historia General y Natural de las Indias”, describe las actividades y cuidados que los mayas daban a sus abejas, las cuales criaban en colmenas rústicas conocidas como hobones (troncos huecos gruesos, con aberturas de los extremos cubiertas con discos de madera sellados con lodo) los cuales se colocaban sobre delgados troncos inclinados y protegidos dentro de chozas cubiertas de palmas de guano.  Estas características, aunadas a los manejos que se les daba a estas abejas, dieron lugar a considerar que esta actividad estaba más extendida que la apicultura en cualquier otra parte de Europa.  
 
-La miel obtenida tuvo múltiples aplicaciones, como alimento, como remedio medicinal y hasta ritual, esto último quedando de manifiesto a través de su uso en festividades religiosas, como aquella que se celebraba en honor al Dios maya de las abejas “Ah-Muzen-cab” donde se preparaba una bebida suave de maíz hervido llamada “sac-ha” para consumo de las mujeres y otra para los varones denominada “balché” la cual además se preparaba con agua y la corteza de un árbol del mismo nombre (Lonchocarpus longistylus pitier).  
+La miel obtenida tuvo múltiples aplicaciones, como alimento, como remedio medicinal y hasta ritual, esto último quedando de manifiesto a través de su uso en festividades religiosas, como aquella que se celebraba en honor al Dios maya de las abejas “Ah-Muzen-cab” donde se preparaba una bebida suave de maíz hervido llamada “sac-ha” para consumo de las mujeres y otra para los varones denominada “balché” la cual además se preparaba con agua y la corteza de un árbol del mismo nombre (*Lonchocarpus longistylus pitier*).  
 
 La evidencia de las actividades que llevaban a cabo los mayas con estas abejas quedaron documentadas en el códice Troano, Maya o de Madrid. Igualmente Fray Diego de Landa documentó las festividades religiosas en honor al Dios de las abejas que se celebraban durante los meses de noviembre (Tzec) y diciembre (Mol) para asegurar un buen flujo de néctar. La miel se comercializaba desde Tabasco por mar hacia Honduras y Nicaragua, mientras que la cera se comercializaba desde los puertos de Sisal, Yuc. y de Campeche, Camp. (de ahí que a la cera se le conociera como “Cera de Campeche”) hacia el puerto de Veracruz y a otros pertenecientes al Imperio Español; probablemente a cambio de la miel y cera, los mayas recibían cacao y piedras preciosas.  
 
-Se dice que la introducción de las abejas Apis mellifera a México, especialmente a la Península de Yucatán, no ocurrió inmediatamente durante la conquista ya que, por lo que respecta a esta región, los mayas mantenían el suministro de la miel y la cera que obtenían de los meliponinos como tributo a los españoles,  sobre todo de este segundo producto el cual se utilizaba de manera creciente en las actividades religiosas de los españoles, máxime porque los cargamentos de cera de España no cubrían esta clase de necesidad.   
+Se dice que la introducción de las abejas *Apis mellifera* a México, especialmente a la Península de Yucatán, no ocurrió inmediatamente durante la conquista ya que, por lo que respecta a esta región, los mayas mantenían el suministro de la miel y la cera que obtenían de los meliponinos como tributo a los españoles,  sobre todo de este segundo producto el cual se utilizaba de manera creciente en las actividades religiosas de los españoles, máxime porque los cargamentos de cera de España no cubrían esta clase de necesidad.   
 
-La primera referencia que se tiene de la introducción de abejas de la subespecie o raza geográfica Apis mellifera mellifera a un territorio que en aquel entonces era de posesión española fue Florida, dado que al parecer se quería incrementar su contribución a la corona española, sin embargo no se tuvo el éxito deseado por lo que colonias de esa misma subespecie se introdujeron a Cuba en 1764, donde se expandió la apicultura, lo cual aparentemente influyó para que a partir de esta isla y a fines de los 1760´s o principios de los 1770´s se transportaban abejas al continente, teniendo como destino el centro de la Nueva España; algunas referencias indirectas además de citarse la presencia de estas abejas por F.J. Clavijero en su obra “Historia Antigua de México” respaldan esta hipótesis.  
+La primera referencia que se tiene de la introducción de abejas de la subespecie *Apis mellifera* a un territorio que en aquel entonces era de posesión española fue Florida, dado que al parecer se quería incrementar su contribución a la corona española, sin embargo no se tuvo el éxito deseado por lo que colonias de esa misma subespecie se introdujeron a Cuba en 1764, donde se expandió la apicultura, lo cual aparentemente influyó para que a partir de esta isla y a fines de los 1760´s o principios de los 1770´s se transportaban abejas al continente, teniendo como destino el centro de la Nueva España; algunas referencias indirectas además de citarse la presencia de estas abejas por F.J. Clavijero en su obra “Historia Antigua de México” respaldan esta hipótesis.  
 
-Por lo que respecta a la península de Yucatán, se estima que las primeras abejas A. m. mellifera fueron introducidas al estado de Yucatán a fines de los 1800 o principios de los 1900, empleándose las colmenas Dadant lo que generó un gran auge de la apicultura en el poblado de Izamal y de ahí al resto del estado, dando inicio a las exportaciones de miel a través del surgimiento de algunas sociedades apícolas.  
+Por lo que respecta a la península de Yucatán, se estima que las primeras abejas *A. m. mellifera* fueron introducidas al estado de Yucatán a fines de los 1800 o principios de los 1900, empleándose las colmenas Dadant lo que generó un gran auge de la apicultura en el poblado de Izamal y de ahí al resto del estado, dando inicio a las exportaciones de miel a través del surgimiento de algunas sociedades apícolas.  
 
-Para el año 1911 se introduce la raza Apis mellifera ligústica, la cual, conjuntamente con el advenimiento de nuevas tecnologías, dentro de las que destaca la utilización de la colmena con marcos móviles, dio lugar a la expansión de una apicultura moderna a partir de 1920, determinándose un gran potencial de crecimiento futuro de las actividades apícolas en función de las características eco-geográficas que en aquel entonces se presentaban en el país, caracterizadas por la abundancia de recursos apibotánicos.  
+Para el año 1911 se introduce la raza *Apis mellifera ligústica*, la cual, conjuntamente con el advenimiento de nuevas tecnologías, dentro de las que destaca la utilización de la colmena con marcos móviles, dio lugar a la expansión de una apicultura moderna a partir de 1920, determinándose un gran potencial de crecimiento futuro de las actividades apícolas en función de las características eco-geográficas que en aquel entonces se presentaban en el país, caracterizadas por la abundancia de recursos apibotánicos.  
 
 
 En la década de los años 1930´s comenzaron a conformarse algunas organizaciones de apicultores, primordialmente en los estados de Yucatán, Jalisco, Michoacán, Puebla y Veracruz. Más tarde, al surgir la Ley de Asociaciones Ganaderas y su Reglamento, en 1964 nace la Unión Nacional de Apicultores (UNAPI) constituyéndose legalmente en 1965 y formando parte de la Confederación Nacional Ganadera. Adosadas a esta agrupación se integraron 76 Asociaciones de apicultores en 25 estados de la república. Destaca que en el sur del país surge una importante organización denominada Consejo Apícola del Sureste, al cual se agruparon diversas sociedades de producción rural como por ejemplo Apícola Maya de Mérida Yucatán, Miel de Abeja de Campeche, Apícola de Tabasco, entre otras, algunas de ellas contando con alrededor de 5,000 apicultores y plantas para la recepción de miel para exportación. En 1977 se constituye el Comité Nacional de Planificación Apícola que se integró por los representantes de la UNAPI, del Consejo Apícola del Sureste, representantes de dependencias oficiales como la Secretaría de Agricultura y Recursos Hidráulicos (SARH), la Secretaría de la Reforma Agraria, Secretaría de Educación Pública, Instituto Nacional Indigenista y del Banco Nacional de Crédito Rural.  
@@ -49,7 +49,7 @@ Tal como antes se mencionó, la apicultura en México fue creciendo, con cantida
 
 Esta situación dio pie a que, desde que se conocieron sus efectos negativos, la SARH creara el Programa Nacional para el Control de la Abeja Africana” que se publicó en el Diario Oficial de la Federación el diciembre de 1984 con el fin de implementar medidas de prevención y control de este insecto. En septiembre de 1987 la SARH y el Departamento de Agricultura de los Estados Unidos de Norteamérica, (USDA) formalizaron un convenio de colaboración con el fin de establecer un programa de manejo integrado para el control de la abeja africanizada (Programa Cooperativo SARH-USDA para el control de la Abeja Africanizada), mismo que tuvo como objetivo, retardar o frenar el avance de esta abeja hacia el norte del país y así ganar tiempo para que se desarrollara tecnología para su control, manteniendo la producción de miel lo más alto posible y minimizar los problemas asociados a estas abejas; dos fueron las unidades operativas establecidas para coadyuvar con sus fines: la del pacífico (Centro Operativo ubicado en Puerto, Escondido, Oaxaca) y la del golfo (Centro Operativo ubicado en Jalapa, Ver.).
 
-Años más tarde otro problema afectó a la apicultura nacional: la llegada del ácaro ectoparásito de las abejas melíferas Varroa destructor (antes conocido como Varroa jacobsoni) oficialmente detectado en el estado de Veracruz en 1992, el cual igualmente traería repercusiones negativas como las que se presentaban en Europa y Estados Unidos. Esta situación motivó la creación del Programa de la Campaña Nacional Contra la Varroasis de las Abejas, dependiente del Programa Nacional para el Control de la Abeja Africanizada oficializándose en 1992 en el Diario Oficial de la Federación.
+Años más tarde otro problema afectó a la apicultura nacional: la llegada del ácaro ectoparásito de las abejas melíferas *Varroa destructor* (antes conocido como *Varroa jacobsoni*) oficialmente detectado en el estado de Veracruz en 1992, el cual igualmente traería repercusiones negativas como las que se presentaban en Europa y Estados Unidos. Esta situación motivó la creación del Programa de la Campaña Nacional Contra la Varroasis de las Abejas, dependiente del Programa Nacional para el Control de la Abeja Africanizada oficializándose en 1992 en el Diario Oficial de la Federación.
 
 Si bien todo lo anteriormente escrito se ha basado en la apicultura, es importante mencionar el gran esfuerzo que diversas instituciones como El Colegio de la Frontera Sur, la Universidad Autónoma de Yucatán (Campus de Ciencias Biológicas y Agropecuarias), la Universidad de Guadalajara (Campus Centro Universitario de la Costa Sur), la Universidad Autónoma de Chiapas, el Colegio de Posgraduados y la ANMVEA y empresas o centros de capacitación como AIPROCOPA S.A., el CISEAT ubicado en Ciudad de México, Desarrollo y Consultoría Apícola de Quintana Roo S.C., entre otras, han realizado en pro de rescatar y fortalecer la meliponicultura del país. A este respecto sobresale la organización de Seminarios sobre Abejas sin Aguijón que surgieron en el año 1999 derivado de la inquietud de notables académicos e investigadores , eventos que ya también se llevan a cabo en diferentes países de Centroamérica y que al igual que en México tienen como fin promover el desarrollo de las abejas nativas sin aguijón. 
 
@@ -147,7 +147,7 @@ La miel es apreciada en todas partes como un alimento dulce y apetitoso. En per�
 
 En muchas partes del mundo la miel es utilizada como medicina o jarabe y como tratamiento especial para niños. La medicina moderna está aumentando el uso de la miel en una gran variedad de tratamientos.
 
-La miel fresca local es siempre considerada de mejor calidad que la miel de importación. Muchos apicultores venden sus productos directamente a los consumidores. La miel es usada con frecuencia como un bien de intercambio en algunas aldeas, especialmente en áreas remotas o aisladas por la guerra o bloqueos económicos. La miel es un bien estable que se conserva por mucho tiempo. Si es cosechada cuidadosamente puede ser conservada en cualquier lugar por varios años.
+La miel fresca local es siempre considerada de mejor calidad que la miel de importación. Muchos apicultores venden sus productos directamente a los consumidores. La miel es usada con frecuencia como un bien de intercambio en algunas aldeas, especialmente en áreas remotas o aisladas por la guerra o bloqueos económicos. La miel es un bien estable que se conserva por mucho tiempo. Si es cosechada cuidadosamente, puede ser conservada por varios años, en un ambiente fresco, seco preferentemente en un frasco con cierre hermético y cuidándola de no exponer al sol y/o altas temperaturas. 
 
 La miel es usada ampliamente como una fuente de azúcares para producir vino y cerveza de miel. Tiene también un alto valor para las industrias cosmética y farmacéutica, pues cada vez son más los productos de belleza como cremas, jabones, shampoos, y preparaciones medicinales que la incluyen como ingrediente.  
   
@@ -172,7 +172,7 @@ En un comunicado, la SADER informó que en 2017 se lograron producir 50,955 tone
 
 Para garantizar a los consumidores que la miel mexicana cumple con altos estándares de inocuidad, el *Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria* (SENASICA) lleva a cabo un programa de monitoreo permanente de residuos tóxicos y contaminantes, y trabaja de la mano con los productores para preservar su inocuidad. A través del *Programa de Monitoreo de Residuos Tóxicos y Contaminantes a Bienes de Origen Animal, Acuícola y Pesquero*, explicó que el personal del SENASICA comprueba que la miel producida en México no tiene contaminantes físicos, químicos o microbiológicos que pudieran afectar su calidad de exportación.
 
-Los verificadores sanitarios recolectan muestras de manera aleatoria en las unidades de producción de miel orgánica o convencional de todo el país y las canalizan al Centro Nacional de Servicios de Diagnóstico en Salud Animal (CENASA), para su análisis. Este centro realiza los estudios con base en los lineamientos establecidos en las regulaciones internacionales, el *Codex Alimentarius* de la FAO, y la Unión Europea, en referencia a los límites máximos de residuos para asegurar la inocuidad y calidad del producto. Todo ello con la finalidad de ofrecer cada vez mayores garantías a los consumidores nacionales y extranjeros de que los productos mexicanos son sanos y libres de contaminantes.
+Los verificadores sanitarios recolectan muestras de manera aleatoria en las unidades de producción de miel orgánica o convencional de todo el país y las canalizan al Centro Nacional de Servicios de Constatación en Salud Animal (CENAPA), para su análisis. Este centro realiza los estudios con base en los lineamientos establecidos en las regulaciones internacionales, el *Codex Alimentarius* de la FAO, y la Unión Europea, en referencia a los límites máximos de residuos para asegurar la inocuidad y calidad del producto. Todo ello con la finalidad de ofrecer cada vez mayores garantías a los consumidores nacionales y extranjeros de que los productos mexicanos son sanos y libres de contaminantes.
 
 <br/>
 
@@ -212,15 +212,17 @@ Se observó que el precio de los insumos aumentan constantemente, que los rendim
 ##  3.7. Consumo Per Cápita de Miel en México   
 ****
 
-México produce 57,000 toneladas de miel en promedio por año y es el sexto productor a nivel mundial. Mientras que la mitad de la producción se consume a nivel nacional, el **consumo anual per cápita es de alrededor de 300 gramos** y el país continúa siendo el tercer mayor exportador del mundo. Actualmente hay alrededor de 40,000 apicultores en todo el país, con más de 30% de la producción concentrada en Yucatán, Campeche y Quintana Roo: 17,000 apicultores que manejan más de 0.5 millones de colmenas. México es también el tercer mayor exportador mundial de miel orgánica con 500 toneladas en 2009.  
+México produce 57,995 toneladas de miel en promedio por año (periodo 2014-2018) y es el octavo productor a nivel mundial. Mientras que la mitad de la producción se consume a nivel nacional, el **consumo anual per cápita es de alrededor de 300 gramos** y el país continúa siendo el tercer mayor exportador del mundo. Actualmente hay alrededor de 43,000 apicultores en todo el país, con más de 30% de la producción concentrada en Yucatán, Campeche y Quintana Roo: 17,000 apicultores que manejan más de 0.5 millones de colmenas. México es también uno de los mayores exportador mundial de miel orgánica en el mundo.
 
 Existen nuevas oportunidades de mercado en la diferenciación de variedades de miel, especialmente si se aumenta la producción de miel de la abeja nativa Maya Real, que puede generar precios de alrededor de US$30 por 900 gramos. En los últimos años, las tendencias del mercado mundial han demostrado que los consumidores prefieren un producto claramente identificado por su origen floral, lo que es otra oportunidad de mercado que requiere de un entrenamiento en la producción, certificación y etiquetado.
 
-Las ventas se basan principalmente tambores de miel a granel de 200 litros, la mayor parte para la exportación; una pequeña cantidad envasada para el mercado nacional, y también algunos subproductos como cera, veneno y jalea real. La mayoría de los grupos de productores tienen personalidad jurídica (cooperativas) y también se agrupan en asociaciones. Varias de estas asociaciones se encuentran en proceso de transición hacia esquemas de certificación orgánica. Algunas ya han tenido éxito. También están intentando posicionarse en el mercado de la miel diferenciada por su origen botánico (por ejemplo, miel de cafetales), y la venta de miel con marca propia en el mercado interno.
+La venta al por mayor se realiza principalmente en tambores de miel a granel, de 300 kg en promedio; la mayor parte para la exportación. Una pequeña cantidad es envasada para el mercado nacional, y también algunos subproductos como cera, veneno y jalea real. La mayoría de los grupos de productores tienen personalidad jurídica (cooperativas) y también se agrupan en asociaciones. Varias de estas asociaciones se encuentran en proceso de transición hacia esquemas de certificación orgánica. Algunas ya han tenido éxito. También están intentando posicionarse en el mercado de la miel diferenciada por su origen botánico (por ejemplo, miel de cafetales), y la venta de miel con marca propia en el mercado interno.
 
 <br/>
 
-***Fuente:*** 
+***Fuentes:*** 
+
+[FAOSTAT, 2017.](http://www.fao.org/faostat/es/#data/QL){target="_blank"}
 
 [Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). *Sistemas productivos sostenibles y biodiversidad.* 2018.](https://www.biodiversidad.gob.mx/SPSB/apicultura.html){target="_blank"}
 
@@ -239,6 +241,8 @@ Las características de la miel dependen de la fuente donde las abejas recolecta
 
 La anterior se complementa con la Norma [**NMX-F-036-NORMEX-2006. Alimentos, Miel. Especificaciones y métodos de prueba.**](pdfs/NMX-F-036-1981.PDF){target="_blank"}, que establece las especificaciones que debe cumplir la miel de abeja
 destinada para consumo humano directo en envases menores de 10 Kgs, y también la Norma [**NOM-145-SCFI-2001. Información comercial. Etiquetado de miel en sus diferentes presentaciones**](pdfs/NOM-145-SCFI-2001.PDF){target="_blank"}, que establece los lineamientos para el etiquetado de miel en sus diferentes presentaciones.
+
+En particular, el *Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria* (SENASICA), publicó desde 2012 un [Manual de Buenas Prácticas de Manejo y Envasado de la Miel](pdfs/Manual_de_Buenas_Pr_cticas_en_el_Manejo_y_Envasado_de_Miel_oct.pdf){target="_blank"}, con el objetivo de reducir los riesgos de contaminación de la miel durante las distintas etapas que comprenden las fases de extracción, sedimentación, filtrado, envasado y transporte de la miel.
 
 <br/>
 
@@ -261,13 +265,11 @@ kableExtra::kable(tab0008, align = c('l','r')) %>%
 
 Diversas técnicas analíticas se utilizan para la determinación de la autenticidad de la miel, como son los análisis enzimáticos, métodos cromatográficos, electroquímicos y espectrométricos. Sin embargo, aunque estas técnicas son precisas, son complicadas, consumen tiempo, y requieren una preparación especial de las muestras. La espectroscopia infrarroja (FTIR) permite el análisis de muestras de miel con una poca o ninguna preparación de esta, reduciendo así el tiempo, el costo y la complejidad del análisis.
 
-Entre las adulteraciones comunes podemos encontrar: presencia de glucosas o fructuosas, almidones, harinas, yeso y exceso de humedad.
+Entre las alteraciones comunes podemos encontrar: presencia de glucosas o fructuosas, almidones, harinas, yeso y exceso de humedad.
 
 Una miel madura sólo se consigue si se extrae de panales con celdas bloqueadas por cera, si se obtiene de panales con celdas que no están tapadas con cera, la miel carecerá de sus azúcares naturales y contendrá mucha humedad.
 
 Para detectar las adulteraciones con glucosas, que son las más frecuentes, se requieren análisis en laboratorios especializados. No obstante, es importante señalar que la miel de abeja pura cristaliza por naturaleza. Una miel que no cristaliza muy posiblemente está adulterada con algún tipo de fructosa o glucosa como retardante para la cristalización.
-
-Una miel de abeja suele ser dos a tres veces más cara que los jarabes de maíz o azucarados, por lo que una comparativa de precios nos puede orientar a seleccionar mejor. La Organización Nacional de Apicultores realiza inspecciones a las mieles de sus agremiados, por lo que la presencia de su holograma en la etiqueta, puede dar tranquilidad.
 
 Desafortunadamente, el incremento de la demanda mundial de miel no solo es una oportunidad para aumentar los ingresos para las regiones productoras de ésta, sino que también ha provocado un alza en las prácticas fraudulentas en las que se adiciona jarabe de maíz, soya o arroz a la miel para aumentar su volumen. 
 
@@ -277,11 +279,17 @@ También existe otro fraude en la industria apícola, que se relaciona con su or
 
 ***Fuentes:*** 
 
-[Procuraduría Federal del Consumidor (PROFECO). *Estudio de Calidad de Miel de Abeja.* Junio, 2018.](pdfs/Estudio_de_Calidad_Miel_de_Abeja.pdf){target="_blank"}
+[Estudio de calidad: miel de abeja.* PROFECO. Revista del Consumidor, Junio, 2018.](pdfs/Estudio_de_Calidad_Miel_de_Abeja.pdf){target="_blank"}
+
+[CONACyT. *¿Miel de México o de China?*  Abril, 2018.](http://www.conacytprensa.mx/index.php/centros-conacyt/20873-ciencia-tecnologia-apicultura){target="_blank"}
+
+[*Estudio de calidad: miel de abeja.* PROFECO. Revista del Consumidor, Febrero, 2015.](pdfs/RC456_Estudio_Calidad_de_Miel_de_Abejas.pdf){target="_blank"}
 
 [Ríos Corripio M. A. y Rojas López M. *Analisis de adulteracion en miel de abeja de la region Puebla-Tlaxcala empleando espectroscopia infrarroja.* Presentado en el XIV Congreso Nacional de Biotecnología y Bioingeniería. Nov., 2012.](pdfs/CIII-80.pdf){target="_blank"}
 
-[CONACyT. *¿Miel de México o de China?*  Abril, 2018.](http://www.conacytprensa.mx/index.php/centros-conacyt/20873-ciencia-tecnologia-apicultura){target="_blank"}
+[*Estudio de calidad: miel de abeja.* PROFECO. Revista del Consumidor, Junio, 2011.](pdfs/Estudio_Miel_de_abejas_30-42_Junio_2011.pdf){target="_blank"}
+
+
 
 <br/>
 <br/>
@@ -294,7 +302,7 @@ También existe otro fraude en la industria apícola, que se relaciona con su or
 
 ```{r i0_3_12_01, fig.align='center', echo=FALSE, fig.cap="**Fig. 8 Manual de Buenas Prácticas para la Producción de Miel en México.**", out.width = "80%", cache=TRUE}
 
-knitr::include_graphics("imag/manbpra.png")
+knitr::include_graphics("imag/manbpra.jpg")
 
 ```
 
@@ -422,7 +430,7 @@ Es conveniente observar las Normas Oficiales Mexicanas para cumplir con estánda
 
 6. El exportador debe **elegir el Régimen de Exportación**, que puede ser temporal o definitivo, para el pago de derechos.
 
-7. **Realizar el pago de derechos** de acuerdo a la Ley de los Impuestos Generales de Importación y de Exportación (LIGIE), así como verificar si es necesario pagar aranceles de exportación:
+7. **Realizar el pago de derechos** de acuerdo a la Ley de los Impuestos Generales de Importación y de Exportación (LIGIE), así como verificar si es necesario pagar aranceles de exportación.
 
 <br/>
 
@@ -445,9 +453,9 @@ La apicultura en México tiene una gran importancia socioeconómica y ecológica
 
 Las abejas son fundamentales para un equilibrio del medio ambiente ya que al obtener el alimento de las flores fomentan en las plantas la capacidad de fecundarse, actividad llamada polinización cruzada, con ésta, las plantas generan el oxígeno suficiente para la vida y, además, aumentan el rendimiento en los cultivos, lo que favorece un incremento en alimentos de origen vegetal, materia prima textil, e insumos agropecuarios.
 
-Las actividades de un apicultor oscilan entre primavera y verano normalmente para trabajar con las abejas realizando inspecciones de control de población y extracción de la miel, sin embargo, durante el invierno o estación de receso, el trabajo consiste en la preparación del material de madera, para la temporada que viene en donde alojará las nuevas familias, así como advertir posibles enfermedades o plagas de las poblaciones de abejas para poder tratarlas a tiempo.
+Las actividades de un apicultor oscilan entre primavera y verano normalmente para trabajar con las abejas realizando inspecciones de control de población y extracción de la miel, sin embargo, durante el invierno o estación de receso, el trabajo consiste en el mantenimiento de la población de abejas sanas (colonia) y en buenas condiciones, así como la preparación de material de madera para la temporada que viene, en donde alojará las nuevas familias, así como advertir posibles enfermedades o plagas de las poblaciones de abejas para poder tratarlas a tiempo.
 
-Los medios de vida y desarrollo en la apicultura se basan en la presencia de recursos naturales: abejas, plantas en flor y el agua. Las abejas recogen la goma y la resina usando las plantas y los árboles como hábitat para sus panales. Las abejas son un recurso libremente disponible en la naturaleza.
+Los medios de vida y desarrollo en la apicultura se basan en la presencia de recursos naturales: abejas, plantas en flor y el agua. En forma silvestre, las abejas recogen la goma y la resina usando las plantas y los árboles como hábitat para sus panales. Las abejas son un recurso libremente disponible en la naturaleza.
 
 Siempre que no hayan sido contaminadas, dañadas o perjudicadas, éstas volarán por todas partes donde se encuentren plantas en flor. Las áreas silvestres o cultivadas, las zonas deprimidas e incluso aquellas áreas donde podría haber campos minados, tienen un valor inestimable para la apicultura. Esta actividad se puede desarrollar en áreas áridas, o terrenos donde la siembra u otras modalidades de cultivo han fracasado, ya que las raíces de los árboles que producen néctar pueden alcanzar el nivel freático muy por debajo de la superficie. Esto hace que la apicultura sea factible en condiciones marginales, lo que es muy importante para la gente que desee rehabilitar sus medios de vida y desarrollo o crear nuevos.
 
@@ -457,7 +465,14 @@ La importancia de la actividad apícola se ha vinculado a la función directa qu
 
 El valor de la polinización es difícil de medir, pero si pudiera ser calculado, sería el más alto de todos los elementos que componen la apicultura. Por su definición, un sistema de vida y desarrollo debería fortalecer las capacidades sin deteriorar los recursos naturales de base. La apicultura va más allá, porque ayuda a preservar los recursos naturales. En todo el mundo, desde siempre, la apicultura ha formado parte de la agricultura de los poblados.
 
-Los recursos sociales, tales como las redes y asociaciones de productores y comerciantes, son de fundamental importancia para el desarrollo de la apicultura. Las asociaciones locales ponen a disposición de los apicultores los medios para que den a conocer su trabajo, ejerzan presión a favor de la protección de las abejas, organizen en colectividad la transformación de la miel y la cera de abeja, y tengan acceso al mercado. El acceso a las redes a un nivel superior, por medio de las organizaciones no gubernamentales y asociaciones de carácter regional o nacional, ayuda a obtener contactos en el ámbito nacional e internacional, a encontrar fuentes de capacitación y mercados, a tener acceso a los resultados de investigaciones recientes y a mejorar sus conocimientos sobre la apicultura.
+Los recursos sociales, tales como las redes y asociaciones de productores y comerciantes, son de fundamental importancia para el desarrollo de la apicultura. Las asociaciones locales ponen a disposición de los apicultores los medios para que den a conocer su trabajo, ejerzan presión a favor de la protección de las abejas, organicen en colectividad la transformación de la miel y la cera de abeja, y tengan acceso al mercado. El acceso a las redes a un nivel superior, por medio de las organizaciones no gubernamentales y asociaciones de carácter regional o nacional, ayuda a obtener contactos en el ámbito nacional e internacional, a encontrar fuentes de capacitación y mercados, a tener acceso a los resultados de investigaciones recientes y a mejorar sus conocimientos sobre la apicultura.
+
+**Abejas Nativas**
+
+Una mención aparte, merece el desarrollo de estudios recientes en el país respecto a las especies de abejas nativas. En América (y por lo tanto en México) las únicas abejas sociales nativas que nos pueden proporcionar miel son las abejas sin aguijón. La abeja melífera y su variedad africana, de las cuales generalmente tomamos su miel, son originarias de Europa, África y Asia, y fueron introducidas al continente americano. En México se reportan 46 especies de abejas sin aguijón agrupadas en 16 géneros. Los estados que tienen mayor número de especies son: Oaxaca, Chiapas, Veracruz, y Quintana Roo. 
+
+A los apicultores de abejas nativas se les denomina meliponicultores. En México, actualmente se trabaja en la meliponicultura con alrededor de 19 de las 46 especies de abejas sin aguijón que existen en el país. 
+
 
 <br/>
 
@@ -466,6 +481,17 @@ Los recursos sociales, tales como las redes y asociaciones de productores y come
 [Fideicomiso de Riesgo Compartido. *Apicultura, Actividad De Gran Importancia Para La Economía Y El Medio Ambiente En México.*  SADER, Diciembre, 2016.](https://www.gob.mx/firco/articulos/apicultura-actividad-de-gran-importancia-para-la-economia-y-el-medio-ambiente-en-mexico?idiom=es){target="_blank"}
 
 [FAO. *La apicultura ayuda a crear sistemas de vida sostenibles.* 2005.](http://www.fao.org/docrep/008/y5110s/y5110s02.htm){target="_blank"}
+
+[Noemi Arnold, Raquel Zepeda, Marco Vásquez Dávila y Miriam Aldasoro Maya. *Las abejas sin aguijón y su cultivo en Oaxaca, México: con catálogo de especies.* ECOSUR-CONABIO, México, 2018.](pdfs/ABEJAS_SIN_AGUIJON_OAXACA.pdf){target="_blank"}
+
+Ayala, R. *Revisión de las abejas sin aguijón de México (Hymenoptera: Apidae: Meliponini)*. Folia Entomológica México 106, 1–123 (1999).
+
+Ayala, R., González, V. H. & Engel, M. S. *Mexican Stingless Bees (Hymenoptera:Apidae): Diversity, Distribution, and Indigenous Knowledg.* En Pot-Honey: A legacy of stingless bees (eds. Vit, P., Pedro, S. R. M. & Roubik, D. W.) 135–152 (Springer New York, 2013). 
+
+Ayala, R., Griswold, T. L. & Yanega, D. *Apoidea (Hymenoptera). En Biodiversidad, taxonomía y biogeografía de artrópodos de México: Hacia una síntesis de su conocimiento*. (eds. Llorente Bousquets, J. E., García Aldrete, A. N. & González Soriano, E.) 423–464 (UNAM y CONABIO, 1996). 
+
+Arnold, N., Ayala, R., Mérida, J., Sagot, P. & Aldasoro, M. *Nuevos registros de abejas sin aguijón (Apidae: Meliponini) para los estados de Chiapas y Oaxaca, México.* Revista Mexicana de Biodiversidad (en imprenta). 
+
 
 <br/>
 <br/>
@@ -512,7 +538,7 @@ Hoy en día, uno de los principales cambios climáticos se da en la atmósfera c
 
 El cambio climático representa el mayor reto para la humanidad en el siglo XXI, el calentamiento global implícito ha incrementado en 1 °C la temperatura global con respecto al inicio de la era industrial, por las emisiones de gases efecto invernadero (GEI), que provocan efectos negativos ambientales, económicos y sociales. 
 
-El impacto del Cambio Climático sobre la Apicultura, radica en la importancia de éstas en el Medio Ambiente; la función principal de las abejas va más allá del procesamiento de la miel, éstas juegan un papel muy importante en la generación de alimentos y oxígeno para los seres vivos a través de la polinización. 
+El impacto del Cambio Climático sobre la Apicultura, radica en la importancia de ésta en el Medio Ambiente; la función principal de las abejas va más allá del procesamiento de la miel, éstas juegan un papel muy importante en la generación de alimentos y oxígeno para los seres vivos a través de la polinización. 
 
 <br/>
 
@@ -731,7 +757,7 @@ Frente a las problemáticas contemporáneas relacionadas con los cambios globale
 
 Trabajan con dos grupos de abejas:
 
-1) En torno a la abeja productora de miel Apis mellifera, desarrollan conocimientos, prácticas y procesos relacionados con la producción de miel y de una apicultura sana y amigable con el ambiente.
+1) En torno a la abeja productora de miel *Apis mellifera*, desarrollan conocimientos, prácticas y procesos relacionados con la producción de miel y de una apicultura sana y amigable con el ambiente.
 
 2) Con Abejas nativas (por ejemplo, abejorros y abejas sin aguijón) estudian aspectos básicos de su ecología, así como su papel en los sistemas agrícolas, en la producción de miel y la polinización.
 
@@ -818,7 +844,7 @@ En el ámbito apícola, realiza investigaciones sobre el impacto de los plaguici
 #### **Laboratorio de Análisis de Propóleos en la FES Cuautitlán.**
 Laboratorio de Microbiología de la Unidad de Investigación Multidisciplinaria (UIM) de la FES (Facultad de Estudios Superiores) Cuautitlán se ubica el Laboratorio de Análisis de Propóleos, cuyo objetivo es principalmente el análisis de mieles y propóleos.
 
-Este grupo impuslsó la creación de la [**Norma Oficial Mexicana NOM-003-SAG/GAN-2017, Propóleos, producción y especificaciones para su procesamiento.**](http://www.dof.gob.mx/normasOficiales/6794/sagarpa11_C/sagarpa11_C.html){target="_blank"} Norma de observancia obligatoria en todo el territorio nacional y  que tiene por objeto establecer las especificaciones de producción, características físicas, químicas y microbiológicas, que deben cumplir los propóleos y sus extractos para su procesamiento y comercialización en el país.
+Este grupo impulsó la creación de la [**Norma Oficial Mexicana NOM-003-SAG/GAN-2017, Propóleos, producción y especificaciones para su procesamiento.**](http://www.dof.gob.mx/normasOficiales/6794/sagarpa11_C/sagarpa11_C.html){target="_blank"} Norma de observancia obligatoria en todo el territorio nacional, publicada en el DOF 06/10/2017, y que tiene por objeto establecer las especificaciones de producción, características físicas, químicas y microbiológicas, que deben cumplir los propóleos y sus extractos para su procesamiento y comercialización en el país. 
 
 Este laboratorio ofrece el servicio de evaluación del propóleo mediante pruebas que garantizan al apicultor la calidad de su producto: la valoración física a partir del análisis del color, olor, sabor y consistencia de temperatura ambiente (parámetros que no pueden estandarizarse pues el propóleo es recolectado de la vegetación que hay alrededor de las colmenas) y el análisis químico, estudiando la presencia de fenoles y flavonoides, compuestos que recibe de la actividad biológica.
 
@@ -828,7 +854,29 @@ Además, el servicio implementado en la FES Cuautitlán permite que se realice u
 
 El laboratorio, finalmente, impacta en los ámbitos social, económico y de la salud, porque propiciará la producción y se difundirán los beneficios que conlleva su uso para el ser humano.
 
+Los siguientes videos muestran algunas de las actividades de este laboratorio.
+
+<br>
+<br>
+
+<div class=text-center>
+
+<video width="710" height="427" src="media/laboratorio_analisis_propoleos.mp4" controls type="video/mp4">
+</video>
+
+<br>
+<br>
+
+<video width="710" height="427" src="media/laboratorio_analisis_propoleos_unam_global.mp4" controls type="video/mp4">
+</video>
+
+</div>
+
+
+<div class=text-justify>
+
 <br/>
+
 
 ***Fuente:***
 
@@ -1012,8 +1060,6 @@ En dicho evento, se abordaron temas como: genética, cría de reinas, agroquími
 Ya en 2019, nuevamente en Aguascalientes, se llevó a cabo el ***5º Encuentro Apícola del Altiplano Aguascalientes 2019***, la ***1a. Convención Nacional del Sector Apícola*** y ***5ª Feria de la Miel***, del 1º al 4 de febrero, donde se dieron cita ponentes nacionales e internacionales, y personal del INEGI tuvo la oportunidad de presentar el Atlas Nacional de las Abejas y Derivados Apícolas.
 
 Eventos como los anteriores son de suma importancia para la transmisión de conocimientos y experiencias entre apicultores, organizaciones, especialistas, proveedores, instituciones y público en general interesado en la actividad apícola, con el fin de mejorar los procesos y métodos a lo largo de la cadena de actividades en la apicultura. 
-
-Del 1 al 4 de febrero de 2019, en la ciudad de Aguascalientes se llevó a cabo el ***5º Encuentro Apícola del Altiplano Mexicano,  y la 1a. Convención Nacional del Sector Apícola, además de que también se lleva a cabo la 5a Feria de la Miel y productos de la Colmena ***, siendo inaugurado por el gobernador del estado, Martín Orozco Sandoval.
 
 Por último, del 22 al 24 de mayo de 2019 en las instalaciones de la Expo Chihuahua en dicha ciudad, se desarrolló el ***XXVI Congreso Internacional de Actualización Apícola***, evento en el que se dieron cita investigadores de México y otras partes del mundo, para compartir experiencias y conocimientos sobre la ciencia detrás de la apicultura, desde temas de genética y manejo de enfermedades, hasta aspectos para mejorar la administración y economía de los apiarios.
 

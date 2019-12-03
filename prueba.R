@@ -445,13 +445,27 @@ library(DiagrammeR)
 
 DiagrammeR::mermaid("
                     graph TB
-                    A(  Cepa madre con <br/> 10 cuadros +  REINA  ) --> B[ Cepa madre con 5 cuadros + REINA <br/> a 20 metros de sitio original  ]
-                    A-->C(  Colonia Nueva con 5 cuadros S/REINA <br/> al sitio de la madre   )
+                    A((  Cepa madre con <br/> 10 cuadros +  REINA  )) --> B[ Cepa madre con 5 cuadros + REINA <br/> a 20 metros de sitio original  ]
+                    A==>C{ Colonia Nueva con <br> 5 cuadros <br> S/REINA <br/> al sitio de la madre }
                     C-->A
-                    style A fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
-                    style B fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    B-->A
+                    style A fill:cyan,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
                     style C fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
                     ")
+
+DiagrammeR::mermaid("
+                    graph TB
+                    A((  Cepa madre con <br/> 10 cuadros +  REINA  )) --> B[ Cepa madre con 5 cuadros + REINA <br/> a 20 metros de sitio original  ]
+                    A==>C{ Colonia Nueva con <br> 5 cuadros <br> S/REINA <br/> al sitio de la madre }
+                    C-->A
+                    B-->A
+                    style A fill:cyan,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style B fill:orange,color:#ebd4cb,stroke:#ebd4cb,stroke-width:2px;
+                    style C fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
+                    ")
+
+
 
 
 DiagrammeR::mermaid("
@@ -465,5 +479,42 @@ DiagrammeR::mermaid("
                     style C fill:cyan,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
                     style D fill:gold,color:#ebd4cb,stroke:#ebd4cb,stroke-width:1px;
                     ")
+
+
+
+#{r videoMielOrganica, echo=FALSE, message=FALSE, fig.align='center'}
+library("htmltools")
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=LHV6Ef0c-Eg")
+
+
+
+
+
+grViz("
+digraph boxes_and_circles {
+
+  # a 'graph' statement
+  graph [overlap = true, fontsize = 10]
+
+  # several 'node' statements
+  node [shape = box,
+        fontname = Helvetica]
+  'Esto es'; 'una'; C; D; E; F
+
+  node [shape = circle,
+        fixedsize = true,
+        width = 0.9] // sets as circles
+  1; 2; 3; 4; 5; 6; 7; 8
+
+  # several 'edge' statements
+  'Esto es'->1 'una'->2 'una'->3 'una'->4 C->'esto es'
+  1->D E->'esto es' 2->4 1->5 1->F
+  E->6 4->6 5->7 6->7 3->8
+}
+")
+
+
+
 
 

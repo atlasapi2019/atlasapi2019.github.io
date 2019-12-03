@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r i_4x, fig.align='center', echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/4_Estadis-01.png")
+knitr::include_graphics("imag/4_Estadis.gif")
 
 ```
 

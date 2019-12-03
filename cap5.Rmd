@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r i_5x, fig.align='center', echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/5_Otros.png")
+knitr::include_graphics("imag/5_Mapas.gif")
 
 ```
 

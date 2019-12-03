@@ -5,7 +5,7 @@ title: "Introducción"
 
 ```{r i0, fig.align='center', echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/Portada1x.jpg")
+knitr::include_graphics("imag/Portada5.gif")
 
 ```
 
@@ -38,16 +38,16 @@ Con ello, se pretende dar cumplimiento a los principios rectores de accesibilida
 
 ```{r i_1, fig.align='center', echo=FALSE, cache=TRUE}
 
-knitr::include_graphics("imag/1_Just.png")
+knitr::include_graphics("imag/1_Just.gif")
 
 ```
 
 
 Actualmente existe una fuerte tendencia a realizar *Investigación Reproducible*, es decir, presentar reportes científicos o publicaciones donde los datos y el código utilizado estén disponibles para que otros puedan verificar los hallazgos, o enriquecerlos al contribuir en ellos, lo cual promueve la trasparencia y confianza en los resultados. En ese contexto, se presenta el _Atlas Nacional de las Abejas y Derivados Apícolas_, con la finalidad de tener un producto robusto y que sea punto de partida para detectar las necesidades de información sobre la apicultura, y con ello impulsar el desarrollo de esta importante actividad, de manera responsable y sustentable.
 
-El _Atlas Nacional de las Abejas y Derivados Apícolas_ surge de la necesidad de identificar la situación en que se encuentra esta especie, la cual es preocupante. El informe de la [Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas](pdfs/SPM_Pollination_ES.pdf){target="_blank"} de las Naciones Unidas (IPBES, por sus siglas en inglés) advierte que el 40% de los polinizadores invertebrados, en particular abejas y mariposas, podrían estarse enfrentando en este momento, a un proceso de extinción. 
+El _Atlas Nacional de las Abejas y Derivados Apícolas_ surge de la necesidad de identificar la situación en que se encuentran estos insectos, la cual es preocupante. El informe de la [Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas](pdfs/SPM_Pollination_ES.pdf){target="_blank"} de las Naciones Unidas (IPBES, por sus siglas en inglés) advierte que el 40% de los polinizadores invertebrados, en particular algunos tipos de abejas y mariposas, podrían estarse enfrentando en este momento, a un proceso de extinción.
 
-Las abejas no son los únicos polinizadores, ya que hay muchos otros insectos que realizan esa labor. De hecho, el término _abejas_ es muy inconcreto, pues existen unas 22,000 especies de abejas, de las que sólo un 5% son abejas de la miel o _Apis mellifera_. Es de resaltar que la abeja de la miel es una de las polinizadoras más eficientes, pues prospera en casi todos los ambientes del planeta, trabaja la mayor parte del año, forma poblaciones muy numerosas, y cada abeja suele ser fiel a un tipo de flor concreta, aumentando por tanto el índice de reproducción de las especies vegetales. 
+Las abejas no son los únicos polinizadores, ya que hay muchos otros insectos que realizan esa labor. De hecho, el término _abejas_ es muy inconcreto, pues existen unas 20,000 especies de abejas, de las que sólo un 5% son abejas de la miel o _Apis mellifera_. Es de resaltar que la abeja de la miel es una de las polinizadoras más eficientes, pues prospera en casi todos los ambientes del planeta, trabaja la mayor parte del año, forma poblaciones muy numerosas, y cada abeja suele ser fiel a un tipo de flor concreta, aumentando por tanto el índice de reproducción de las especies vegetales. 
 
 La zoopolinización desempeña una función vital como regulador de los ecosistemas en la naturaleza. A nivel mundial, casi el 90% de las fitoespecies florales silvestres dependen, al menos parcialmente, de la transferencia de polen por los animales. Esas plantas son fundamentales para el funcionamiento continuo de los ecosistemas en tanto proporcionan alimentos, constituyen hábitats, y proveen otros recursos para una amplia variedad de otras especies. De la misma forma, se estima que entre 5% y 8% de la actual producción agrícola mundial depende directamente de la zoopolinización. 
 

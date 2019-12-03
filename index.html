@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -71,7 +71,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -220,6 +219,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -232,48 +232,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -287,6 +248,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -322,8 +289,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -419,7 +384,7 @@ div.tocify {
 </div>
 
 
-<p><img src="imag/Portada1x.jpg" width="1100" style="display: block; margin: auto;" /></p>
+<p><img src="imag/Portada5.gif" style="display: block; margin: auto;" /></p>
 <div class="text-justify">
 <p></br> </br></p>
 <p>El <strong>Atlas Nacional de las Abejas y Derivados Apícolas</strong> integra la información existente en torno a la apicultura en México, desde las características de la miel, hasta aspectos relacionados con la actividad económica en torno a las especies domesticadas, de carácter técnico referentes a la crianza de abejas, los apoyos gubernamentales que existen y el volumen de producción de las entidades federativas, entre otros temas, acompañada de datos históricos sobre la apicultura.</p>
@@ -427,11 +392,11 @@ div.tocify {
 <p>Este proyecto compila por primera vez en un mismo lugar, tanto información que ya se encuentra disponible en publicaciones y páginas web de las Unidades de Estado que colaboran en este proyecto, y de otros estudios relacionados, como datos que dichas unidades acordaron compartir con el INEGI, y que se han analizado y procesado para presentarse en forma dinámica, a efecto de ofrecer a usuarios específicos y al público en general, toda la información disponible hasta el momento en un único sitio web, con datos verificables y actualizables.</p>
 <p>Con ello, se pretende dar cumplimiento a los principios rectores de accesibilidad, transparencia, objetividad e independencia, que el INEGI promueve como parte de su misión institucional.</p>
 <p></br> </br> </br></p>
-<h1 id="justificacion">Justificación</h1>
-<p><img src="imag/1_Just.png" width="1650" style="display: block; margin: auto;" /></p>
+<h1 id="justificación">Justificación</h1>
+<p><img src="imag/1_Just.gif" style="display: block; margin: auto;" /></p>
 <p>Actualmente existe una fuerte tendencia a realizar <em>Investigación Reproducible</em>, es decir, presentar reportes científicos o publicaciones donde los datos y el código utilizado estén disponibles para que otros puedan verificar los hallazgos, o enriquecerlos al contribuir en ellos, lo cual promueve la trasparencia y confianza en los resultados. En ese contexto, se presenta el <em>Atlas Nacional de las Abejas y Derivados Apícolas</em>, con la finalidad de tener un producto robusto y que sea punto de partida para detectar las necesidades de información sobre la apicultura, y con ello impulsar el desarrollo de esta importante actividad, de manera responsable y sustentable.</p>
-<p>El <em>Atlas Nacional de las Abejas y Derivados Apícolas</em> surge de la necesidad de identificar la situación en que se encuentra esta especie, la cual es preocupante. El informe de la <a href="pdfs/SPM_Pollination_ES.pdf" target="_blank">Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas</a> de las Naciones Unidas (IPBES, por sus siglas en inglés) advierte que el 40% de los polinizadores invertebrados, en particular abejas y mariposas, podrían estarse enfrentando en este momento, a un proceso de extinción.</p>
-<p>Las abejas no son los únicos polinizadores, ya que hay muchos otros insectos que realizan esa labor. De hecho, el término <em>abejas</em> es muy inconcreto, pues existen unas 22,000 especies de abejas, de las que sólo un 5% son abejas de la miel o <em>Apis mellifera</em>. Es de resaltar que la abeja de la miel es una de las polinizadoras más eficientes, pues prospera en casi todos los ambientes del planeta, trabaja la mayor parte del año, forma poblaciones muy numerosas, y cada abeja suele ser fiel a un tipo de flor concreta, aumentando por tanto el índice de reproducción de las especies vegetales.</p>
+<p>El <em>Atlas Nacional de las Abejas y Derivados Apícolas</em> surge de la necesidad de identificar la situación en que se encuentran estos insectos, la cual es preocupante. El informe de la <a href="pdfs/SPM_Pollination_ES.pdf" target="_blank">Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas</a> de las Naciones Unidas (IPBES, por sus siglas en inglés) advierte que el 40% de los polinizadores invertebrados, en particular algunos tipos de abejas y mariposas, podrían estarse enfrentando en este momento, a un proceso de extinción.</p>
+<p>Las abejas no son los únicos polinizadores, ya que hay muchos otros insectos que realizan esa labor. De hecho, el término <em>abejas</em> es muy inconcreto, pues existen unas 20,000 especies de abejas, de las que sólo un 5% son abejas de la miel o <em>Apis mellifera</em>. Es de resaltar que la abeja de la miel es una de las polinizadoras más eficientes, pues prospera en casi todos los ambientes del planeta, trabaja la mayor parte del año, forma poblaciones muy numerosas, y cada abeja suele ser fiel a un tipo de flor concreta, aumentando por tanto el índice de reproducción de las especies vegetales.</p>
 <p>La zoopolinización desempeña una función vital como regulador de los ecosistemas en la naturaleza. A nivel mundial, casi el 90% de las fitoespecies florales silvestres dependen, al menos parcialmente, de la transferencia de polen por los animales. Esas plantas son fundamentales para el funcionamiento continuo de los ecosistemas en tanto proporcionan alimentos, constituyen hábitats, y proveen otros recursos para una amplia variedad de otras especies. De la misma forma, se estima que entre 5% y 8% de la actual producción agrícola mundial depende directamente de la zoopolinización.</p>
 <p>En este contexto, el papel de la abeja melífera occidental se vuelve preponderante, debido a que es el polinizador gestionado de mayor diseminación en todo el planeta, y a nivel mundial existen alrededor de 81 millones de colmenas que, según estimaciones, producen anualmente 1.6 millones de toneladas de miel. La apicultura proporciona, en este sentido, una importante fuente de ingresos para muchas personas, sobre todo en el ámbito rural.</p>
 <p>La protección de las abejas y de polinizadores, y en general de la biodiversidad, pasa por el conocimiento de la especie. Este trabajo pretende contribuir en dicha tarea con al menos una de ellas, que es la más cotizada por sus productos.</p>
@@ -461,6 +426,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
