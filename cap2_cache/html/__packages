@@ -1,3 +1,7 @@
 base
-DiagrammeR
-kableExtra
+methods
+datasets
+utils
+grDevices
+graphics
+stats
