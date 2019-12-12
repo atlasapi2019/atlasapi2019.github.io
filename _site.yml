@@ -4,7 +4,7 @@ head: <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/c
 name: Atlas_abejasmx
 output_dir: '.'
 navbar:
-  title: Atlas Nacional de las Abejas <br/>y Derivados Apícolas
+  title: Atlas Nacional de las Abejas <br>y Derivados Apícolas <br>(Versión Preliminar)
   type: inverse
   left:
   - text: Introducción
@@ -27,6 +27,6 @@ output:
     toc: yes
     toc_float: yes
     theme: flatly
-    highlight: zenburn
+    highlight: tango
     lib_dir: site_libs
     self_contained: no
