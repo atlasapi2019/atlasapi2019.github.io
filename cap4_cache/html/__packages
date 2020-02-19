@@ -1,7 +1,7 @@
 base
-methods
-datasets
-utils
-grDevices
-graphics
-stats
+DiagrammeR
+kableExtra
+DT
+dygraphs
+ggplot2
+plotly
