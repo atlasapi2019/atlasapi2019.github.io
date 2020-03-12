@@ -1,5 +1,5 @@
 ---
-title: "La Miel en México y el Mundo"
+title: "La Miel en México"
 ---   
 
 <div class=text-justify>

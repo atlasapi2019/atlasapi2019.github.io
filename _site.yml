@@ -13,7 +13,7 @@ navbar:
   - text: Abejas y Apicultura
     href: cap2.html
     icon: fa-forumbee
-  - text: La Miel en México y el Mundo
+  - text: La Miel en México
     href: cap3.html
     icon: fa-globe
   - text: Estadísticas
