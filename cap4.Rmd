@@ -22,7 +22,7 @@ knitr::include_graphics("imag/4_Estadis.gif")
 ## 4.1. Número de colmenas en México
 ****
 
-La División Estadística de la FAO (FAOSTAT) tiene publicada información sobre el número de colmenas por país desde el año 1961 y hasta el 2017, la cual se resume para nuestro país, en la tabla y gráfica siguientes: 
+La División Estadística de la FAO (FAOSTAT) tiene publicada información sobre el número de colmenas por país desde el año 1961 y hasta el 2018, la cual se resume para nuestro país, en la tabla y gráfica siguientes: 
 
 <br/>
 
@@ -40,7 +40,7 @@ DT::datatable(bhvs,filter = 'top', options = list(
 
 <br/>
 
-<p align="center"> **Cuadro 12. Colmenas en México 1961-2017.** [`r icon::fa("download")`](tabs/BeehivesMX.csv) </p>
+<p align="center"> **Cuadro 12. Colmenas en México 1961-2018.** [`r icon::fa("download")`](tabs/BeehivesMX.csv) </p>
 
 <br/>
 <br/>
