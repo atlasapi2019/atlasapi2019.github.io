@@ -10,18 +10,6 @@ navbar:
   - text: Introducción
     href: index.html
     icon: fa-home
-  - text: Abejas y Apicultura
-    href: cap2.html
-    icon: fa-forumbee
-  - text: La Miel en México y el Mundo
-    href: cap3.html
-    icon: fa-globe
-  - text: Estadísticas
-    href: cap4.html
-    icon: fa-chart-bar 
-  - text: Mapas
-    href: cap5.html
-    icon: fa-map
 output:
   html_document:
     toc: yes
