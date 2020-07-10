@@ -7,7 +7,7 @@ navbar:
   title: Atlas Nacional de las Abejas <br>y Derivados Apícolas <br>(Versión Preliminar)
   type: inverse
   left:
-  - text: Introducción
+  - text: Nuevo sitio web...
     href: index.html
     icon: fa-home
 output:
